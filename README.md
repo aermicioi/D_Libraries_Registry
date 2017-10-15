@@ -6,6 +6,21 @@ This collection has the intent to help developers find a suitable library for th
 
 For any question or contribution, reache me via github pull requests and issues.
 
+## New libraries and corrections
+
+Submissions of new libraries: I accept submissions (as issues or as pull requests). Please
+note that description and last update is optional because a script updates it once a day.
+
+Corrections: if information for a library above is wrong, please send a correction as an
+issue, pull request, or email. 
+
+## Quality
+
+This list aims to collect libraries of high qualities. Unfortunately I don't have time to test all of them exhaustively.
+
+**If any library does not meet expected requirements (bugs, no tests, no documentation, outdated) open an issue**
+
+Once a library is removed the name will be moved to [removed.md](removed.md) with the hope that they will be corrected by original manteiners or forks.
 
 
 ### Other lists
@@ -16,7 +31,8 @@ Also you might be interested in other related, but different lists:
 
 ### Categories:
 
-  - [multi-purpose libraries](#multi-purpose libraries)
+  - Generic libraries 
+    - [multi-purpose libraries](#multi-purpose libraries)
   - general purpose
     - [data structures](#data-structures)
     - [string processing](#strings)
@@ -246,13 +262,6 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 
-## New libraries and corrections
-
-Submissions of new libraries: I accept submissions (as issues or as pull requests). Please
-note that description and last update is optional because a script updates it once a day.
-
-Corrections: if information for a library above is wrong, please send a correction as an
-issue, pull request, or email. 
 
 ## Thanks
 
