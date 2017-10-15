@@ -16,7 +16,7 @@ issue, pull request, or email.
 
 ## Quality
 
-This list aims to collect libraries of high qualities. Unfortunately I don't have time to test all of them exhaustively.
+This list aims to collect libraries of high quality. Unfortunately I don't have time to test all of them exhaustively.
 
 **If any library does not meet expected requirements (bugs, no tests, no documentation, outdated) open an issue**
 
