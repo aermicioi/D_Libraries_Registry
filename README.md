@@ -52,6 +52,7 @@ Also you might be interested in other related, but different lists:
   - other
     - [AI](#ai)
     - [cryptography](#crypto)
+    - [randomization](#randomization)
     - [user interface](#user-interface)
     - [miscellaneous](#miscellaneous)
 
@@ -109,10 +110,13 @@ Also you might be interested in other related, but different lists:
 # concurrency
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [jin.go](https://github.com/nin-jin/go.d)                             | Public Domain        | Yes || 
+| [workermanager](https://github.com/alphaKAI/workermanager)            | Unknown              | Yes || 
 
 # crypto
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [botan](https://github.com/etcimon/botan)                             | Unknown/Closed       | Yes || 
 
 # data structures
 | library                                                               | license              | GC |last update| description
@@ -158,6 +162,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes || 
+| [botan-math](https://github.com/etcimon/botan-math)                  | BSD 2                | Yes || 
 
 # network
 | library                                                               | license              | GC |last update| description
@@ -180,6 +185,10 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
+# randomization
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
 # scripting
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
@@ -191,6 +200,7 @@ Also you might be interested in other related, but different lists:
 # tests
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes || 
 
 # user interface
 | library                                                               | license              | GC |last update| description
@@ -202,50 +212,21 @@ Also you might be interested in other related, but different lists:
 
 # video
 | library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------7
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 # miscellaneous
 | library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------7
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 
 ## New libraries and corrections
 
 Submissions of new libraries: I accept submissions (as issues or as pull requests). Please
-note that every file that must be included in a user's project counts; a header and a source
-file is 2 files, but a header file, source file, and LICENSE (if the license isn't in the
-source file) is 3 files, and won't be accepted, because it's not 2 files. But actually
-'LICENSE' is a problem for just dropping the library in a source tree anyway, since it's
-not scoped to just the library, so library authors are encouraged to include the license in the
-source file and not require a separate LICENSE.
+note that descriptio and last update is optional because a script updates it once a day.
 
 Corrections: if information for a library above is wrong, please send a correction as an
-issue, pull request, or email. Note that if the list indicates a library works from both
-C/C++, but it doesn't, this could be an error in the list or it could be a bug in the
-library. If you find a library doesn't work in 32-bit or 64-bit, the library should be
-removed from this list, unless it's a bug in the library.
+issue, pull request, or email. 
 
-## *List FAQ*
+## Thanks
 
-### Can I link directly to this list?
-
-Yes. [This is the preferred link.](https://github.com/nothings/single_file_libs)
-
-### Why isn't library XXX which is made of 3 or more files on this list?
-
-I draw the line arbitrarily at 2 files at most. (Note that some libraries that appear to
-be two files require a separate LICENSE file, which made me leave them out). Some of these
-libraries are still easy to drop into your project and build, so you might still be ok with them.
-But since people come to stb for single-file public domain libraries, I feel that starts
-to get too far from what we do here.
-
-### Why isn't library XXX which is at most two files and has minimal other dependencies on this list?
-
-Probably because I don't know about it, feel free to submit a pull request, issue, email, or tweet it at
-me (it can be your own library or somebody else's). But I might not include it for various
-other reasons, including subtleties of what is 'minimal other dependencies' and subtleties
-about what is 'lightweight'.
-
-### Why isn't SQLite's amalgamated build on this list?
-
-Come on.
+Thanks to [nothings](https://github.com/nothings/single_file_libs) for inspiration.
