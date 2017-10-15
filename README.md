@@ -23,6 +23,9 @@ Also you might be interested in other related, but different lists:
     - [scripting](#scripting)
     - [hashing](#hashing)
     - [concurrency](#concurrency)
+    - [events](#events)
+    - [databases](#databases)
+    - [IO](#IO)
   - mathematics
     - [vector math](#vectors)
     - [geometry math](#geometry-math)
@@ -59,18 +62,18 @@ Also you might be interested in other related, but different lists:
 # Multi-purpose
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes || 
+| [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  || 
+| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  || 
+| [fast](https://github.com/mleise/fast)                                | GPLv3                | No  || 
+| [jive](https://github.com/krox/jive)                                  | Public Domain        | No  || 
+| [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  || 
+| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  || 
 | [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes || 
 | [Tango-D2](https://github.com/SiegeLord/Tango-D2)                     | BSD                  | Yes || 
-| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  || 
-| [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  || 
-| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  || 
-| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes || 
-| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  || 
-| [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  || 
 | [tango-rt](https://github.com/sociomantic-tsunami/tangort)            | BSD                  | No  || 
-| [jive](https://github.com/krox/jive)                                  | Public Domain        | No  || 
+| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  || 
 | [Thrift-d](https://github.com/dhasenan/thrift-d)                      | Apache 2             | Yes || 
-| [fast](https://github.com/mleise/fast)                                | GPLv3                | No  || 
 
 # AI
 | library                                                               | license              | gc |last update| description
@@ -82,30 +85,30 @@ Also you might be interested in other related, but different lists:
 # argv
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [darg](https://github.com/jasonwhite/darg)                            | Mit                  | Yes || 
-| [commander.d](https://github.com/yamadapc/commander.d)                | MIT                  | Yes || 
-| [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes || 
 | [argsd](https://github.com/burner/argsd)                              | MIT                  | Yes || 
 | [argon](https://github.com/markuslaker/Argon)                         | ISC                  | Yes || 
+| [commander.d](https://github.com/yamadapc/commander.d)                | MIT                  | Yes || 
+| [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes || 
+| [darg](https://github.com/jasonwhite/darg)                            | Mit                  | Yes || 
 | [parseopts](https://github.com/mitchgrout/parseopts)                  | Unknown              | Yes || 
 
 # audio
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes || 
 | [Ddsp](https://github.com/abaga129/Ddsp)                              | MIT                  | Yes || 
-| [DerelectBass](https://github.com/p0nce/DerelictBASS)                 | Boost                | Yes || 
+| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes || 
 | [dlang-jack](https://github.com/martinez/dlang-jack)                  | BSL 1                | Yes || 
-| [djack](https://github.com/cosenmarco/djack)                          | GPLv3                | Yes || 
-| [wasapi](https://github.com/buggins/wasapi)                           | Boost                | Yes || 
 | [DerelictFmod](https://github.com/Extrawurst/DerelictFmod)            | MIT                | Yes || 
+| [djack](https://github.com/cosenmarco/djack)                          | GPLv3                | Yes || 
+| [DerelectBass](https://github.com/p0nce/DerelictBASS)                 | Boost                | Yes || 
+| [wasapi](https://github.com/buggins/wasapi)                           | Boost                | Yes || 
 
 # compression
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [archive](https://github.com/rcythr/archive)                          | BSL 1                | Yes || 
 | [dcompress](https://github.com/byebye/dcompress)                      | Unknown              | No  || 
 | [lz77text](https://github.com/Superstar64/lz77text)                   | Boost                | Yes || 
-| [archive](https://github.com/rcythr/archive)                          | BSL 1                | Yes || 
 
 # concurrency
 | library                                                               | license              | GC |last update| description
@@ -121,8 +124,27 @@ Also you might be interested in other related, but different lists:
 # data structures
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [aammm](https://github.com/arexeu/aammm)                              | BSL 1                | No  || 
+| [ArrayList](https://github.com/0xEAB/arraylist)                       | Public Domain        | Yes || 
+| [containers](https://github.com/economicmodeling/containers)          | MIT                  | No  || 
+| [darray](https://github.com/burner/darray)                            | LGPL 3               | Yes || 
+| [Dgraph](https://github.com/WebDrake/Dgraph)                          | GPLv3                | Yes  || 
+| [dhtnode](https://github.com/sociomantic-tsunami/dhtnode)             | MIT                  | No  || 
+| [hash](https://github.com/Mihail-K/hash)                              | MIT                  | Yes || 
+| [JudyD](https://github.com/rfarr/JudyD)                               | ISC                  | No  || 
+| [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  || 
+| [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  || 
+| [std.rcstring](https://github.com/burner/std.rcstring)                | Boost                | No  || 
+
+# databases
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 # debugging
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
+# events
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
@@ -158,11 +180,15 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
+# IO
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
 # math
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes || 
 | [botan-math](https://github.com/etcimon/botan-math)                  | BSD 2                | Yes || 
+| [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes || 
 
 # network
 | library                                                               | license              | GC |last update| description
@@ -222,7 +248,7 @@ Also you might be interested in other related, but different lists:
 ## New libraries and corrections
 
 Submissions of new libraries: I accept submissions (as issues or as pull requests). Please
-note that descriptio and last update is optional because a script updates it once a day.
+note that description and last update is optional because a script updates it once a day.
 
 Corrections: if information for a library above is wrong, please send a correction as an
 issue, pull request, or email. 
