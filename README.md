@@ -135,6 +135,7 @@ Also you might be interested in other related, but different lists:
 | [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  || 
 | [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  || 
 | [std.rcstring](https://github.com/burner/std.rcstring)                | Boost                | No  || 
+| [vebtree](https://bitbucket.org/Sandman8/vebtree)                     | MIT                  | Yes | 2016-Oct-28 |A library for van Emde Boas tree 
 
 # databases
 | library                                                               | license              | GC |last update| description
