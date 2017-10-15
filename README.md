@@ -31,7 +31,7 @@ Also you might be interested in other related, but different lists:
 
 ### Categories:
 
-  - [Multi purpose libraries](#Multi-purpose)
+  - [Multi purpose libraries](#multi-purpose)
   - general purpose
     - [data structures](#data-structures)
     - [string processing](#strings)
