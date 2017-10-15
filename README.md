@@ -31,8 +31,7 @@ Also you might be interested in other related, but different lists:
 
 ### Categories:
 
-  - Generic libraries 
-    - [multi-purpose libraries](#multi-purpose libraries)
+  - [Multi purpose libraries](#multi-purpose libraries)
   - general purpose
     - [data structures](#data-structures)
     - [string processing](#strings)
@@ -213,7 +212,7 @@ Also you might be interested in other related, but different lists:
 
 # serialization
 | library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------7
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [msgpack-ll](https://github.com/jpf91/msgpack-ll)                     | BSL 1                | No  || 
 
 # json
