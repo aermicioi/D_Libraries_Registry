@@ -138,12 +138,12 @@ Also you might be interested in other related, but different lists:
 # configuration files
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [aedi-property-reader](https://github.com/aermicioi/aedi-property-reader)     | BSL 1        | Yes ||
-| [configd](https://github.com/LightBender/configd)                     | BSL 1                | Yes ||
-| [libconfig-d](https://github.com/rtbo/libconfig-d)                    | BSD 3                | Yes ||
-| [onyx-config](https://github.com/nykytenko/onyx-config)               | MIT                  | Yes ||
-| [runtimer](https://github.com/chrishalebarnes/runtimer)               | MIT                  | Yes ||
-| [yamkeys](https://github.com/carlor/yamkeys)                          | MIT                  | Yes ||
+| [aedi-property-reader](https://github.com/aermicioi/aedi-property-reader)     | BSL 1        | Yes |2017-08-22|Aedi extension, that loads data from multiple sources (environment, xml, json, etc.)
+| [configd](https://github.com/LightBender/configd)                     | BSL 1                | Yes |2016-12-08|Key/Value Configuration Library for D
+| [libconfig-d](https://github.com/rtbo/libconfig-d)                    | BSD 3                | Yes |2016-10-16|Port of libconfig to the D programming language
+| [onyx-config](https://github.com/nykytenko/onyx-config)               | MIT                  | Yes |2017-08-31|Working with configuration data in run-time (D lang)
+| [runtimer](https://github.com/chrishalebarnes/runtimer)               | MIT                  | Yes |2016-04-23|Application runtime configuration for applications built in the D programming language.
+| [yamkeys](https://github.com/carlor/yamkeys)                          | MIT                  | Yes |2016-04-09|A runtime configuration management utility.
 
 # crypto
 | library                                                               | license              | GC |last update| description
