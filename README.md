@@ -155,6 +155,20 @@ Also you might be interested in other related, but different lists:
 # databases
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [basil](https://github.com/senselogic/BASIL)                          | GPLv3                | Yes || 
+| [d2sqlite2](https://github.com/biozic/d2sqlite3)                      | BSL 1                | Yes || 
+| [database](https://github.com/huntlabs/database)                      | Apache 2             | Yes || 
+| [db](https://github.com/viile/db)                                     | Apache 2             | Yes || 
+| [dbal](https://github.com/huntlabs/dbal)                              | Apache 2             | Yes || 
+| [entity](https://github.com/huntlabs/entity)                          | Apache 2             | Yes || 
+| [mondo](https://github.com/2night/mondo)                              | MIT                  | Yes || 
+| [MongoSchemaD](https://github.com/WebFreak001/MongoSchemaD)           | MIT                  | Yes || 
+| [postgres-native](https://github.com/Burgos/postgres-native)          | MIT                  | Yes || 
+| [pgator](https://github.com/DSoftOut/pgator)                          | MIT                  | Yes || 
+| [sqlite3-d](https://github.com/sasq64/sqlite3-d)                      | MIT                  | Yes || 
+| [tiny-redis](https://github.com/adilbaig/Tiny-Redis)                  | ISC                  | Yes || 
+| [vibe.d.db.postgresql](https://github.com/denizzzka/vibe.d.db.postgresql)| MIT                  | No || 
+| [UnofficialDerelictSQLite3](https://github.com/workhorsy/UnofficialDerelictSQLite3) | BSL 1                | Yes || 
 
 # debugging
 | library                                                               | license              | GC |last update| description
@@ -203,7 +217,12 @@ Also you might be interested in other related, but different lists:
 # math
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [botan-math](https://github.com/etcimon/botan-math)                  | BSD 2                | Yes |2016-08-23|Matrix Math for Botan Crypto
+| [ArithEval](https://github.com/Dechcaudron/ArithEval)                 | GPLv3                | No  ||
+| [botan-math](https://github.com/etcimon/botan-math)                   | BSD 2                | Yes |2016-08-23|Matrix Math for Botan Crypto
+| [checkedint](https://github.com/tsbockman/checkedint)                 | BSL 1                | Yes ||
+| [desmath](https://github.com/dexset/desmath)                          | MIT                  | Yes ||
+| [gl3n](https://github.com/Dav1dde/gl3n)                               | MIT                  | Yes ||
+| [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  ||
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
 
 # network
@@ -259,7 +278,7 @@ Also you might be interested in other related, but different lists:
 # miscellaneous
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
+| [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes || 
 
 
 ## Thanks
