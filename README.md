@@ -228,13 +228,13 @@ Also you might be interested in other related, but different lists:
 # logging
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes |2017-03-08|Logging utilities that aimed to be used in highly loaded applications
-| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes |2017-09-27|The simple, fast, multithreading logging library for D.
-| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes |2017-08-21|Native GELF (Graylog Extended Log Format) protocol for D
 | [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes |2017-08-06|Layer logger written in D
-| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes |2017-06-20|Simple Logging for D
+| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes |2017-03-08|Logging utilities that aimed to be used in highly loaded applications
 | [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes |2017-04-21|The Graylog Extended Log Format (GELF) written in D
+| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes |2017-08-21|Native GELF (Graylog Extended Log Format) protocol for D
+| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes |2017-06-20|Simple Logging for D
 | [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes |2016-10-19|Log defer inspired logging in D
+| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes |2017-09-27|The simple, fast, multithreading logging library for D.
 
 # math
 | library                                                               | license              | GC |last update| description
