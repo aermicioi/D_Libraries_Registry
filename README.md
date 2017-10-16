@@ -128,22 +128,22 @@ Also you might be interested in other related, but different lists:
 | [dcompress](https://github.com/byebye/dcompress)                      | Unknown              | No  |2017-06-02|A compression library for D programming language.
 | [lz77text](https://github.com/Superstar64/lz77text)                   | Boost                | Yes |2016-08-01|implementation of the lz77 compression algorithm with text headers
 
-# configuration files
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes |2017-03-08|Logging utilities that aimed to be used in highly loaded applications
-| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes |2017-09-27|The simple, fast, multithreading logging library for D.
-| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes |2017-08-21|Native GELF (Graylog Extended Log Format) protocol for D
-| [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes |2017-08-06|Layer logger written in D
-| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes |2017-06-20|Simple Logging for D
-| [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes |2017-04-21|The Graylog Extended Log Format (GELF) written in D
-| [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes |2016-10-19|Log defer inspired logging in D
 
 # concurrency
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [jin.go](https://github.com/nin-jin/go.d)                             | Public Domain        | Yes |2017-01-07|Wait free thread communication
 | [workermanager](https://github.com/alphaKAI/workermanager)            | Unknown              | Yes |2017-03-31|Multi-thread based asynchronized worker manager
+
+# configuration files
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [aedi-property-reader](https://github.com/aermicioi/aedi-property-reader)     | BSL 1        | Yes ||
+| [configd](https://github.com/LightBender/configd)                     | BSL 1                | Yes ||
+| [libconfig-d](https://github.com/rtbo/libconfig-d)                    | BSD 3                | Yes ||
+| [onyx-config](https://github.com/nykytenko/onyx-config)               | MIT                  | Yes ||
+| [runtimer](https://github.com/chrishalebarnes/runtimer)               | MIT                  | Yes ||
+| [yamkeys](https://github.com/carlor/yamkeys)                          | MIT                  | Yes ||
 
 # crypto
 | library                                                               | license              | GC |last update| description
@@ -232,6 +232,13 @@ Also you might be interested in other related, but different lists:
 # logging
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes |2017-03-08|Logging utilities that aimed to be used in highly loaded applications
+| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes |2017-09-27|The simple, fast, multithreading logging library for D.
+| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes |2017-08-21|Native GELF (Graylog Extended Log Format) protocol for D
+| [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes |2017-08-06|Layer logger written in D
+| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes |2017-06-20|Simple Logging for D
+| [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes |2017-04-21|The Graylog Extended Log Format (GELF) written in D
+| [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes |2016-10-19|Log defer inspired logging in D
 
 # math
 | library                                                               | license              | GC |last update| description
