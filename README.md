@@ -66,7 +66,7 @@ Also you might be interested in other related, but different lists:
   - debugging, profiling, testing
     - [debugging](#debugging)
     - [profiling](#profiling)
-    - [unit testing etc.](#tests)
+    - [unit testing](#tests)
   - other
     - [AI](#ai)
     - [cryptography](#crypto)
