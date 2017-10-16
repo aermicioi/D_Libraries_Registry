@@ -46,9 +46,11 @@ Also you might be interested in other related, but different lists:
     - [geometry math](#geometry-math)
     - [general math](#math)
   - parsing
+  	- [regex](#regex)
     - [JSON](#json)
     - [other serialization](#serialization)
     - [argv argument processing](#argv)
+    - [configuration files](#configuration files)
     - [other parsing](#parsing)
   - graphics
     - [textmode](#graphics-text)
@@ -73,6 +75,7 @@ Also you might be interested in other related, but different lists:
     - [randomization](#randomization)
     - [user interface](#user-interface)
     - [miscellaneous](#miscellaneous)
+    - [logging](#logging)
 
 # Multi-purpose
 | library                                                               | license              | gc |last update| description
@@ -125,6 +128,17 @@ Also you might be interested in other related, but different lists:
 | [dcompress](https://github.com/byebye/dcompress)                      | Unknown              | No  |2017-06-02|A compression library for D programming language.
 | [lz77text](https://github.com/Superstar64/lz77text)                   | Boost                | Yes |2016-08-01|implementation of the lz77 compression algorithm with text headers
 
+# configuration files
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes ||
+| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes ||
+| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes ||
+| [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes ||
+| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes ||
+| [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes ||
+| [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes ||
+
 # concurrency
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
@@ -150,6 +164,7 @@ Also you might be interested in other related, but different lists:
 | [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  |2017-02-13|Overhead allocators, allocator-aware containers and lifetime management for D objects
 | [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  |2017-10-15|Dlang core library for math, finance and a home for Dlang multidimensional array package - ndslice
 | [std.rcstring](https://github.com/burner/std.rcstring)                | Boost                | No  |2016-09-29|A reference counted string implementation for D's build in string construct.
+| [StringBuffer](https://github.com/burner/StringBuffer)                | LGPL 3               | Yes ||
 | [vebtree](https://bitbucket.org/Sandman8/vebtree)                     | MIT                  | Yes | 2016-Oct-28 |A library for van Emde Boas tree 
 
 # databases
@@ -214,6 +229,10 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
+# logging
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
 # math
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
@@ -224,10 +243,16 @@ Also you might be interested in other related, but different lists:
 | [gl3n](https://github.com/Dav1dde/gl3n)                               | MIT                  | Yes |2017-08-15|OpenGL Maths for D (not glm for D).
 | [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  |2017-09-16|A simple @nogc matrix math library for the D Programming language.
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
+| [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes ||
 
 # network
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
+# regex
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+|[pattern](https://github.com/Mihail-K/pattern)                         | MIT                  | Yes ||
 
 # serialization
 | library                                                               | license              | GC |last update| description
@@ -262,6 +287,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-09-24|Advanced unit test framework for D (includes unittest blocks)
+| [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes ||
 
 # user interface
 | library                                                               | license              | GC |last update| description
@@ -279,6 +305,9 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
+|[miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes ||
+|[natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes ||
+|[stringex-d](https://github.com/katafrakt/stringex-d)                  | MIT                  | Yes ||
 
 
 ## Thanks
