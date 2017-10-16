@@ -131,13 +131,13 @@ Also you might be interested in other related, but different lists:
 # configuration files
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes ||
-| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes ||
-| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes ||
-| [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes ||
-| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes ||
-| [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes ||
-| [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes ||
+| [dlogg](https://github.com/NCrashed/dlogg)                            | MIT                  | Yes |2017-03-08|Logging utilities that aimed to be used in highly loaded applications
+| [onyx-log](https://github.com/nykytenko/onyx-log)                     | MIT                  | Yes |2017-09-27|The simple, fast, multithreading logging library for D.
+| [gelf-d](https://github.com/adilbaig/gelfd)                           | MIT                  | Yes |2017-08-21|Native GELF (Graylog Extended Log Format) protocol for D
+| [DLayerLogger](https://github.com/MayurovGeorge/DLayerLogger)         | GPLv3                | Yes |2017-08-06|Layer logger written in D
+| [log](https://github.com/linkrope/log)                                | BSL 1                | Yes |2017-06-20|Simple Logging for D
+| [gelf](https://github.com/kaleidicpublic/gelf)                        | BSL 1                | Yes |2017-04-21|The Graylog Extended Log Format (GELF) written in D
+| [logDefer-D](https://github.com/rfarr/LogDefer-D)                     | ISC                  | Yes |2016-10-19|Log defer inspired logging in D
 
 # concurrency
 | library                                                               | license              | GC |last update| description
@@ -164,7 +164,7 @@ Also you might be interested in other related, but different lists:
 | [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  |2017-02-13|Overhead allocators, allocator-aware containers and lifetime management for D objects
 | [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  |2017-10-15|Dlang core library for math, finance and a home for Dlang multidimensional array package - ndslice
 | [std.rcstring](https://github.com/burner/std.rcstring)                | Boost                | No  |2016-09-29|A reference counted string implementation for D's build in string construct.
-| [StringBuffer](https://github.com/burner/StringBuffer)                | LGPL 3               | Yes ||
+| [StringBuffer](https://github.com/burner/StringBuffer)                | LGPL 3               | Yes |2017-05-19|A stack based string buffer that grows into the heap if needed.
 | [vebtree](https://bitbucket.org/Sandman8/vebtree)                     | MIT                  | Yes | 2016-Oct-28 |A library for van Emde Boas tree 
 
 # databases
@@ -243,7 +243,7 @@ Also you might be interested in other related, but different lists:
 | [gl3n](https://github.com/Dav1dde/gl3n)                               | MIT                  | Yes |2017-08-15|OpenGL Maths for D (not glm for D).
 | [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  |2017-09-16|A simple @nogc matrix math library for the D Programming language.
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
-| [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes ||
+| [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes |2017-08-31|A statistics library for D.
 
 # network
 | library                                                               | license              | GC |last update| description
@@ -287,7 +287,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-09-24|Advanced unit test framework for D (includes unittest blocks)
-| [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes ||
+| [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes |2016-10-20|Advanced unit testing toolkit for the D programming language
 
 # user interface
 | library                                                               | license              | GC |last update| description
