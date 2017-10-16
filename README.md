@@ -96,7 +96,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [dnnet](https://github.com/henrygouk/dnnet)                           | Mit                  | Yes |2016-07-01|An artificial neural networks library.
 | [doll](https://github.com/putyy/doll)                                 | Proprietary          | Yes |2017-10-14|D Optimization Library for Learning
-| [dcv](https://github.com/libmir/dcv)                                  | BSL 1                | Yes ||
+| [dcv](https://github.com/libmir/dcv)                                  | BSL 1                | Yes |2017-08-11|Computer Vision Library for D Programming Language
 | [vectorflow](https://github.com/Netflix/vectorflow)                   | Apache 2             | Yes |2017-09-26|Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 
 # argv
@@ -180,7 +180,7 @@ Also you might be interested in other related, but different lists:
 | [postgres-native](https://github.com/Burgos/postgres-native)          | MIT                  | Yes |2017-02-01|Native D postgres client library
 | [pgator](https://github.com/DSoftOut/pgator)                          | MIT                  | Yes |2017-10-03|Application server that transforms JSON-RPC and Web REST calls into SQL queries for PostgreSQL
 | [sqlite3-d](https://github.com/sasq64/sqlite3-d)                      | MIT                  | Yes |2017-06-14|SQLite3 interface for D
-| [sqld](https://github.com/Mihail-K/sqld)                              | MIT                  | Yes ||
+| [sqld](https://github.com/Mihail-K/sqld)                              | MIT                  | Yes |2017-05-04|SQL query construction and relational algebra.
 | [tiny-redis](https://github.com/adilbaig/Tiny-Redis)                  | ISC                  | Yes |2017-09-07|Redis driver for D
 | [vibe.d.db.postgresql](https://github.com/denizzzka/vibe.d.db.postgresql)| MIT                  | No |2017-10-06|PostgreSQL support for Vibe.d
 | [UnofficialDerelictSQLite3](https://github.com/workhorsy/UnofficialDerelictSQLite3) | BSL 1                | Yes |2017-10-15|Dynamic bindings to the SQLite library for the D Programming Language.
@@ -241,19 +241,19 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [ArithEval](https://github.com/Dechcaudron/ArithEval)                 | GPLv3                | No  |2016-06-27|A minimal arithmetic expression evaluation library for D
 | [botan-math](https://github.com/etcimon/botan-math)                   | BSD 2                | Yes |2016-08-23|Matrix Math for Botan Crypto
-| [cblas](https://github.com/DlangScience/cblas)                        | BSL 1                | Yes  ||
+| [cblas](https://github.com/DlangScience/cblas)                        | BSL 1                | Yes  |2017-07-06|D BLAS header. Works with OpenBLAS.
 | [checkedint](https://github.com/tsbockman/checkedint)                 | BSL 1                | Yes |2017-04-21|D module that provides safer integer math operations and types
 | [desmath](https://github.com/dexset/desmath)                          | MIT                  | Yes |2016-01-07|math
 | [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes |2017-08-31|A statistics library for D.
 | [gl3n](https://github.com/Dav1dde/gl3n)                               | MIT                  | Yes |2017-08-15|OpenGL Maths for D (not glm for D).
-| [linalg](https://github.com/vsn4ik/linalg)                            | MIT                  | Yes  ||
-| [lubeck](https://github.com/kaleidicassociates/lubeck)                | BSL 1                | Yes  ||
-| [mir-vectorflow](https://github.com/libmir/vectorflow)                | Apache 2             | Yes ||
+| [linalg](https://github.com/vsn4ik/linalg)                            | MIT                  | Yes  |2017-09-02|Linear algebra for D programming language.
+| [lubeck](https://github.com/kaleidicassociates/lubeck)                | BSL 1                | Yes  |2017-06-11|High level linear algebra library for Dlang
+| [mir-vectorflow](https://github.com/libmir/vectorflow)                | Apache 2             | Yes |2017-09-26|Mir implementation: Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 | [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  |2017-09-16|A simple @nogc matrix math library for the D Programming language.
-| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  ||
-| [mir-glas](https://github.com/libmir/mir-glas)                        | BSL 1                | No   ||
+| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  |2017-09-29|numpy-like API wrappers of mir
+| [mir-glas](https://github.com/libmir/mir-glas)                        | BSL 1                | No   |2017-09-18|[Experimental] LLVM-accelerated Generic Linear Algebra Subprograms
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
-| [vecd](https://github.com/nucular/vecd)                               | GPLv3                | Yes  ||
+| [vecd](https://github.com/nucular/vecd)                               | GPLv3                | Yes  |2015-09-05|Vector module expanding the vector extensions of D
 
 # network
 | library                                                               | license              | GC |last update| description
@@ -314,7 +314,7 @@ Also you might be interested in other related, but different lists:
 # miscellaneous
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes ||
+| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-06-24|CPU Identification Routines
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
 |[miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes ||
 |[natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes ||
