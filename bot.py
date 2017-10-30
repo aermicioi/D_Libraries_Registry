@@ -29,12 +29,28 @@ def get_desc_and_update(author, proj):
     repo = g.repository(author, proj).to_json()
     return repo['description'], repo['pushed_at'][:repo['pushed_at'].find('T')]
 
+#### script
 with open('README.md', 'r') as f:
     data = f.readlines()
 
 with open('README.md.tmp', 'w') as f:
+    # remove all descriptions and dates
+    div = '|'
     for line in data:
-        if len(line) > 10 and line[2] == '[' and line[-3] == '|':
+        if len(line) > 5 and line[2] == '[' and not '-----------------' in line:
+            lastDiv = line.rfind(div)
+            penDiv = line.rfind(div, 0, lastDiv)
+            line = line[:penDiv] + '||\n'
+        f.write(line)
+
+with open('README.md.tmp', 'r') as f:
+    # read file again
+    data = f.readlines()
+
+with open('README.md.tmp.2', 'w') as f:
+    # proceed to write descriptions and dates
+    for line in data:
+        if len(line) > 5 and line[2] == '[' and line[-3] == '|' and not 'bitbucket' in line:
             div = '|'
             lastDiv = line.rfind(div)
             penDiv = line.rfind(div, 0, lastDiv)
@@ -48,13 +64,13 @@ with open('README.md.tmp', 'w') as f:
                 desc = get_from_exception_list (author, proj)
             if upd == None:
                 upd = "Unknown"
-            # print (desc,author, proj)
             lineToWrite = line[:penDiv + 1] + upd + '|' + desc + '\n'
         else:
             lineToWrite = line
         f.write(lineToWrite)
 
-os.system ('mv README.md.tmp README.md')
+os.system ('mv README.md.tmp.2 README.md')
+os.system('rm README.md.tmp')
 os.system('git add README.md')
 os.system('git commit -m "bot autoupdate"')
 os.system('git push origin master')
