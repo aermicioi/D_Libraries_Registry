@@ -32,13 +32,12 @@ Also you might be interested in other related, but different lists:
 ### Categories:
 
   - [Multi purpose libraries](#multi-purpose)
+  - [Frameworks](#frameworks)
   - general purpose
     - [data structures](#data-structures)
-    - [string processing](#strings)
     - [scripting](#scripting)
     - [hashing](#hashing)
     - [concurrency](#concurrency)
-    - [events](#events)
     - [databases](#databases)
     - [IO](#IO)
   - mathematics
@@ -46,7 +45,7 @@ Also you might be interested in other related, but different lists:
   - parsing
   	- [regex](#regex)
     - [JSON](#json)
-    - [other serialization](#serialization)
+    - [rpc and serialization](#serialization-rpc)
     - [argv argument processing](#argv)
     - [configuration files](#configuration files)
     - [other parsing](#parsing)
@@ -74,6 +73,7 @@ Also you might be interested in other related, but different lists:
     - [user interface](#user-interface)
     - [miscellaneous](#miscellaneous)
     - [logging](#logging)
+    - [build systems](#build-systems)
 
 # Multi-purpose
 | library                                                               | license              | gc |last update| description
@@ -91,12 +91,30 @@ Also you might be interested in other related, but different lists:
 | [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-10-14|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
 | [Thrift-d](https://github.com/dhasenan/thrift-d)                      | Apache 2             | Yes |2017-09-17|Thrift library for the D programming language
 
+# frameworks
+| library                                                               | license              | gc |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [big.d](https://github.com/LLC-CERERIS/big.d)                         | MIT                  | Yes |2017-10-26|MVC Web framework for D
+| [Cmsed](https://github.com/rikkimax/Cmsed)                            | MIT                  | Yes |2015-01-23|A component library for Vibe that functions as a CMS.
+| [Diamond](https://github.com/DiamondMVC/Diamond)                      | MIT                  | Yes |2017-10-28|Diamond is a powerful MVC / Template Framework written in the D Programming Language.
+| [hunt](https://github.com/huntlabs/hunt)                              | Apache 2             | Yes |2017-10-30|A high performance full-stack Web framework written in dlang.
+| [Ocean](https://github.com/sociomantic-tsunami/swarm)                 | BSL 1                | No  |2017-10-27|Asynchronous client/node framework library
+| [turtle](https://github.com/sociomantic-tsunami/turtle)               | BSL                  | Yes |2017-10-23|Black box application testing library/framework
+| [orm](https://github.com/viile/orm)                                   | Apache 2                  | Yes |2017-09-18|An object-relational mapping (ORM) framework for dlang's database, support PostgreSQL / MySQL / SQLite.
+| [collie](https://github.com/huntlabs/collie)                          | Apache 2                  | Yes |2017-09-13|An asynchronous event-driven network framework written in D.
+| [endovena](https://github.com/o3o/endovena)                           | Boost                  | Yes |2017-09-08|Simple dependency injection framework for D
+| [dich](https://github.com/LLC-CERERIS/dich)                           |  MIT                  | Yes |2017-08-29|Simple dependency injection framework for D. Based on endovena similar work.
+| [poodonis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-09-01|A dependency injection framework for D with support for autowiring.
+| [dchem](https://github.com/fawzi/dchem)                               |  ?                  | Yes |2017-07-25|a chemistry simulation, and electrostatic embedding framework in D
+| [caraus](https://github.com/caraus-ecms/caraus)                       |  MPL 2                  | Yes |2017-01-11|Web framework for the D programming language in development
+
 # AI
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dcv](https://github.com/libmir/dcv)                                  | BSL 1                | Yes |2017-08-11|Computer Vision Library for D Programming Language
 | [dnnet](https://github.com/henrygouk/dnnet)                           | Mit                  | Yes |2016-07-01|An artificial neural networks library.
 | [doll](https://github.com/putyy/doll)                                 | Proprietary          | Yes |2017-10-14|D Optimization Library for Learning
-| [dcv](https://github.com/libmir/dcv)                                  | BSL 1                | Yes |2017-08-11|Computer Vision Library for D Programming Language
+| [dopt](https://github.com/henrygouk/dopt)                             | BSD 3 clause         | Yes |2017-10-25|A numerical optimisation and deep learning framework for D.
 | [vectorflow](https://github.com/Netflix/vectorflow)                   | Apache 2             | Yes |2017-09-26|Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 
 # argv
@@ -106,7 +124,9 @@ Also you might be interested in other related, but different lists:
 | [argon](https://github.com/markuslaker/Argon)                         | ISC                  | Yes |2017-02-20|A processor for command-line arguments, an alternative to Getopt, written in D
 | [commander.d](https://github.com/yamadapc/commander.d)                | MIT                  | Yes |2016-04-11|Command-line interfaces in D made easy. Easy command-line parsing based in commander.js.
 | [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes |2017-01-04|A more robust command line argument parser for D.
+| [ctoptions](https://github.com/Soulsbane/ctoptions)                   | Copyright            | Yes |2017-10-27|A D Programming Language library for handling a key/value config file format at compile-time.
 | [darg](https://github.com/jasonwhite/darg)                            | Mit                  | Yes |2017-03-21|Robust command line argument parsing for D.
+| [inilike](https://github.com/FreeSlave/inilike)                       | BSL 1             | Yes |2017-10-23|D library for parsing .ini-like files used in Freedesktop systems
 | [parseopts](https://github.com/mitchgrout/parseopts)                  | Unknown              | Yes |2017-02-15|Basic command-line options parser written in D
 
 # audio
@@ -133,6 +153,11 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [jin.go](https://github.com/nin-jin/go.d)                             | Public Domain        | Yes |2017-01-07|Wait free thread communication
 | [workermanager](https://github.com/alphaKAI/workermanager)            | Unknown              | Yes |2017-03-31|Multi-thread based asynchronized worker manager
+| [eventcore](https://github.com/vibe-d/eventcore)                      | MIT                  | No  |2017-10-03|High performance proactor event loop abstraction library
+| [libasync](https://github.com/etcimon/libasync)                       | MIT                  | Yes  |2017-05-29|Cross-platform event loop library of asynchronous objects
+| [EventSystem](https://github.com/WebFreak001/EventSystem)             | Unlicense            | Yes  |2017-04-11|Tiny event system in D using delegates
+| [eventmanager](https://github.com/AndrewSChapman/eventmanager)        | BSL 1                | Yes  |2017-06-30|Written for the "D" programming language, this library implements a variant of the pub/sub pattern, using events, an event list and event dispatchers
+| [subscribed](https://github.com/v--/subscribed)                       | BSL 1                | Yes  |2017-07-10|A minimalistic library providing eventing-related structures.
 
 # configuration files
 | library                                                               | license              | GC |last update| description
@@ -189,13 +214,14 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
-# events
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
 # files & filenames
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [d-glob](https://github.com/workhorsy/d-glob)                         | BSL 1                | Yes |2017-09-28|Search file systems with glob patterns using the D programming language
+| [FreeSlave](https://github.com/FreeSlave/lnk)                         | BSL 1                | Yes |2017-02-03|D library for parsing .lnk files
+| [FSWatch](https://github.com/WebFreak001/FSWatch)                     | BSL 1                | Yes |2017-10-21|A cross-platform folder & file watching library using win32, inotify or std.file
+| [proped](https://github.com/milofon/proped)                           | BSD                  | Yes |2017-08-25|A library for reading properties files
+| [trashcan](https://github.com/FreeSlave/trashcan)                     | BSL 1                | Yes |2017-03-28|Move files to trash can in D programming language
 
 # geometry file
 | library                                                               | license              | GC |last update| description
@@ -222,8 +248,10 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 # IO
-| library                                                               | license              | GC |last update| description
+| library                                                               | license              | GC  |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+|[io](https://github.com/MartinNowak/io) 							    | BSL 1                | No  ||
+|[iopipe](https://github.com/schveiguy/iopipe)					        | BSL 1                | Yes ||
 
 # logging
 | library                                                               | license              | GC |last update| description
@@ -264,10 +292,14 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 |[pattern](https://github.com/Mihail-K/pattern)                         | MIT                  | Yes ||
 
-# serialization
+# serialization-rpc
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [buffer](https://github.com/shove70/buffer)                          |  MIT                  | Yes |2017-10-25|protocol buffer & rpc
+| [hprose](https://github.com/hprose/hprose-d)                          |  MIT                 | Yes |2016-11-14|Hprose for Dlang
 | [msgpack-ll](https://github.com/jpf91/msgpack-ll)                     | BSL 1                | No  |2017-04-18|A low level @nogc, nothrow, @safe, pure and betterC compatible msgpack.org[D] library
+| [kiss-rpc](https://github.com/huntlabs/kiss-rpc)                          |  Apache 2                 | Yes |2017-09-25|Ultra high performance RPC
+| [xmlrpcc-d](https://github.com/o3o/xmlrpcc-d)                          |  Boost                  | Yes |2017-02-23|XML-RPC client for D Programming Language
 
 # json
 | library                                                               | license              | GC |last update| description
@@ -276,6 +308,7 @@ Also you might be interested in other related, but different lists:
 # parsing
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [infiled](https://github.com/burner/inifiled)                         |  LGPL 3              | Yes |2017-07-29|a compile time ini file parser and writter generator for D
 
 # profiling
 | library                                                               | license              | GC |last update| description
@@ -289,15 +322,12 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
-# strings
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
 # tests
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-09-24|Advanced unit test framework for D (includes unittest blocks)
+| [checkit](https://github.com/LLC-CERERIS/checkit)                     | MIT                  | Yes |2017-08-01|BDD testing framework for D.
 | [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes |2016-10-20|Advanced unit testing toolkit for the D programming language
+| [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-09-24|Advanced unit test framework for D (includes unittest blocks)
 
 # user interface
 | library                                                               | license              | GC |last update| description
@@ -318,7 +348,9 @@ Also you might be interested in other related, but different lists:
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
 |[miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes ||
 |[natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes ||
+|[kafka-d](https://github.com/tamediadigital/kafka-d)                   | MIT                  | Yes ||
 |[stringex-d](https://github.com/katafrakt/stringex-d)                  | MIT                  | Yes ||
+|[vibe-aws](https://github.com/vibe-aws/vibe-aws)                       | MIT                  | Yes ||
 
 
 ## Thanks
