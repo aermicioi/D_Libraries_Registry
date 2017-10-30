@@ -250,8 +250,8 @@ Also you might be interested in other related, but different lists:
 # IO
 | library                                                               | license              | GC  |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-|[io](https://github.com/MartinNowak/io) 							    | BSL 1                | No  ||
-|[iopipe](https://github.com/schveiguy/iopipe)					        | BSL 1                | Yes ||
+| [io](https://github.com/MartinNowak/io) 							    | BSL 1                | No  |2017-10-30|Core I/O functionality
+| [iopipe](https://github.com/schveiguy/iopipe)					        | BSL 1                | Yes |2017-10-28|D language library for modular io
 
 # logging
 | library                                                               | license              | GC |last update| description
@@ -290,7 +290,7 @@ Also you might be interested in other related, but different lists:
 # regex
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-|[pattern](https://github.com/Mihail-K/pattern)                         | MIT                  | Yes ||
+| [pattern](https://github.com/Mihail-K/pattern)                         | MIT                  | Yes |2016-04-10|Templated types for string pattern matching and lexers.
 
 # serialization-rpc
 | library                                                               | license              | GC |last update| description
@@ -346,11 +346,11 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-06-24|CPU Identification Routines
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
-|[miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes ||
-|[natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes ||
-|[kafka-d](https://github.com/tamediadigital/kafka-d)                   | MIT                  | Yes ||
-|[stringex-d](https://github.com/katafrakt/stringex-d)                  | MIT                  | Yes ||
-|[vibe-aws](https://github.com/vibe-aws/vibe-aws)                       | MIT                  | Yes ||
+| [miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes |2017-03-31|String matching library for Dlang
+| [natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes |2017-07-06|Human-natural string comparison algorithm
+| [kafka-d](https://github.com/tamediadigital/kafka-d)                   | MIT                  | Yes |2017-01-10|kafka-d is a D Kafka client that depends on the vibe.d framework.
+| [stringex-d](https://github.com/katafrakt/stringex-d)                  | MIT                  | Yes |2017-07-24|Unicode to ASCII transcoder
+| [vibe-aws](https://github.com/vibe-aws/vibe-aws)                       | MIT                  | Yes |2017-01-16| AWS client library for the D programming language, based on the vibe.d framework
 
 
 ## Thanks
