@@ -27,7 +27,7 @@ Once a library is removed the name will be moved to [removed.md](removed.md) wit
 
 Also you might be interested in other related, but different lists:
 
-- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python. 
+- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python. |2017-10-28|  A curated list of awesome D documents, frameworks, libraries and software. Inspired by awesome-python.
 
 ### Categories:
 
@@ -78,17 +78,17 @@ Also you might be interested in other related, but different lists:
 # Multi-purpose
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-10-14|D2 library for games, network applications etc.
-| [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-10-09|Math, XML, I/O streams, image and audio processing for D
-| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-10-11|my D user library
+| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-10-25|D2 library for games, network applications etc.
+| [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-10-29|Math, XML, I/O streams, image and audio processing for D
+| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-10-25|my D user library
 | [fast](https://github.com/mleise/fast)                                | GPLv3                | No  |2017-08-11|A library for D that aims to provide the fastest possible implementation of some every day routines.
 | [jive](https://github.com/krox/jive)                                  | Public Domain        | No  |2017-09-19|Collections library for D with STL-like value-semantics.
 | [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  |2017-10-09|A refined core library for D programming language. include aio / timer etc.
-| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-10-13|General purpose, platform-dependant, high-performance library for D
-| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-10-15|The standard library of the D programming language
+| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-10-27|General purpose, platform-dependant, high-performance library for D
+| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-10-29|The standard library of the D programming language
 | [Tango-D2](https://github.com/SiegeLord/Tango-D2)                     | BSD                  | Yes |2016-04-01|A port of the Tango library to D2
 | [tango-rt](https://github.com/sociomantic-tsunami/tangort)            | BSD                  | No  |2017-09-27|Tango D1 runtime library
-| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-10-14|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
+| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-10-29|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
 | [Thrift-d](https://github.com/dhasenan/thrift-d)                      | Apache 2             | Yes |2017-09-17|Thrift library for the D programming language
 
 # frameworks
@@ -120,7 +120,7 @@ Also you might be interested in other related, but different lists:
 # argv
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [argsd](https://github.com/burner/argsd)                              | MIT                  | Yes |2017-09-13|A command line and config file parser for DLang
+| [argsd](https://github.com/burner/argsd)                              | MIT                  | Yes |2017-10-25|A command line and config file parser for DLang
 | [argon](https://github.com/markuslaker/Argon)                         | ISC                  | Yes |2017-02-20|A processor for command-line arguments, an alternative to Getopt, written in D
 | [commander.d](https://github.com/yamadapc/commander.d)                | MIT                  | Yes |2016-04-11|Command-line interfaces in D made easy. Easy command-line parsing based in commander.js.
 | [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes |2017-01-04|A more robust command line argument parser for D.
@@ -132,8 +132,8 @@ Also you might be interested in other related, but different lists:
 # audio
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [Ddsp](https://github.com/abaga129/Ddsp)                              | MIT                  | Yes |2017-10-15|A library for Digital Signal Processing in D with a focus on audio
-| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes |2017-10-15|Dplug is a library for creating native audio plugins (VST / AU) as simply as possible.
+| [Ddsp](https://github.com/abaga129/Ddsp)                              | MIT                  | Yes |2017-10-24|A library for Digital Signal Processing in D with a focus on audio
+| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes |2017-10-29|Dplug is a library for creating native audio plugins (VST / AU) as simply as possible.
 | [dlang-jack](https://github.com/martinez/dlang-jack)                  | BSL 1                | Yes |2016-08-11|Idiomatic D API binding for the JACK Audio Connection Kit
 | [DerelictFmod](https://github.com/Extrawurst/DerelictFmod)            | MIT                | Yes |2017-09-20|Dynamic bindings of the fmod sound library in the D programming language
 | [djack](https://github.com/cosenmarco/djack)                          | GPLv3                | Yes |2014-07-13|D interface for JACK audio server
@@ -172,7 +172,7 @@ Also you might be interested in other related, but different lists:
 # crypto
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [botan](https://github.com/etcimon/botan)                             | Unknown/Closed       | Yes |2017-07-12|Block & stream ciphers, public key crypto, hashing, KDF, MAC, PKCS, TLS, ASN.1, BER/DER, etc.
+| [botan](https://github.com/etcimon/botan)                             | Unknown/Closed       | Yes |2017-10-18|Block & stream ciphers, public key crypto, hashing, KDF, MAC, PKCS, TLS, ASN.1, BER/DER, etc.
 
 # data structures
 | library                                                               | license              | GC |last update| description
@@ -182,28 +182,28 @@ Also you might be interested in other related, but different lists:
 | [containers](https://github.com/economicmodeling/containers)          | MIT                  | No  |2017-10-03|Containers backed by std.experimental.allocator
 | [darray](https://github.com/burner/darray)                            | LGPL 3               | Yes |2017-09-20|A double ended array for the D Programming Language
 | [Dgraph](https://github.com/WebDrake/Dgraph)                          | GPLv3                | Yes  |2017-03-24|Graph library written in D.
-| [dhtnode](https://github.com/sociomantic-tsunami/dhtnode)             | MIT                  | No  |2017-10-13|Distributed hash-table node
+| [dhtnode](https://github.com/sociomantic-tsunami/dhtnode)             | MIT                  | No  |2017-10-27|Distributed hash-table node
 | [hash](https://github.com/Mihail-K/hash)                              | MIT                  | Yes |2016-06-07|A Hash datatype for key => value pairs.
 | [JudyD](https://github.com/rfarr/JudyD)                               | ISC                  | No  |2016-07-27|D language bindings for Judy Arrays
-| [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  |2017-02-13|Overhead allocators, allocator-aware containers and lifetime management for D objects
-| [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  |2017-10-15|Dlang core library for math, finance and a home for Dlang multidimensional array package - ndslice
+| [memutils](https://github.com/etcimon/memutils)                       | MIT                  | No  |2017-10-18|Overhead allocators, allocator-aware containers and lifetime management for D objects
+| [mir-algorithm](https://github.com/libmir/mir-algorithm)              | BSL 1                | No  |2017-10-29|Dlang core library for math, finance and a home for Dlang multidimensional array package - ndslice
 | [std.rcstring](https://github.com/burner/std.rcstring)                | Boost                | No  |2016-09-29|A reference counted string implementation for D's build in string construct.
 | [StringBuffer](https://github.com/burner/StringBuffer)                | LGPL 3               | Yes |2017-05-19|A stack based string buffer that grows into the heap if needed.
-| [vebtree](https://bitbucket.org/Sandman8/vebtree)                     | MIT                  | Yes | 2016-Oct-28 |A library for van Emde Boas tree 
+| [vebtree](https://bitbucket.org/Sandman8/vebtree)                     | MIT                  | Yes ||
 
 # databases
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [basil](https://github.com/senselogic/BASIL)                          | GPLv3                | Yes |2017-10-07|Textual database builder.
-| [d2sqlite2](https://github.com/biozic/d2sqlite3)                      | BSL 1                | Yes |2017-07-10|A small wrapper around SQLite for the D programming language
+| [d2sqlite2](https://github.com/biozic/d2sqlite3)                      | BSL 1                | Yes |2017-10-16|A small wrapper around SQLite for the D programming language
 | [database](https://github.com/huntlabs/database)                      | Apache 2             | Yes |2017-10-13|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [db](https://github.com/viile/db)                                     | Apache 2             | Yes |2017-09-18|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [dbal](https://github.com/huntlabs/dbal)                              | Apache 2             | Yes |2017-10-10|Database Abstraction Layer for dlang, can construct SQL statements.
-| [entity](https://github.com/huntlabs/entity)                          | Apache 2             | Yes |2017-10-12|An object-relational mapping (ORM) framework for dlang's database,  support PostgreSQL / MySQL / SQLite.
+| [entity](https://github.com/huntlabs/entity)                          | Apache 2             | Yes |2017-10-29|An object-relational mapping (ORM) framework for dlang's database,  support PostgreSQL / MySQL / SQLite.
 | [mondo](https://github.com/2night/mondo)                              | MIT                  | Yes |2017-10-05|D library for MongoDb (over mongo-c-library)
 | [MongoSchemaD](https://github.com/WebFreak001/MongoSchemaD)           | MIT                  | Yes |2017-10-04|Support for more structured MongoDB databases
 | [postgres-native](https://github.com/Burgos/postgres-native)          | MIT                  | Yes |2017-02-01|Native D postgres client library
-| [pgator](https://github.com/DSoftOut/pgator)                          | MIT                  | Yes |2017-10-03|Application server that transforms JSON-RPC and Web REST calls into SQL queries for PostgreSQL
+| [pgator](https://github.com/DSoftOut/pgator)                          | MIT                  | Yes |2017-10-16|Application server that transforms JSON-RPC and Web REST calls into SQL queries for PostgreSQL
 | [sqlite3-d](https://github.com/sasq64/sqlite3-d)                      | MIT                  | Yes |2017-06-14|SQLite3 interface for D
 | [sqld](https://github.com/Mihail-K/sqld)                              | MIT                  | Yes |2017-05-04|SQL query construction and relational algebra.
 | [tiny-redis](https://github.com/adilbaig/Tiny-Redis)                  | ISC                  | Yes |2017-09-07|Redis driver for D
@@ -268,18 +268,18 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [ArithEval](https://github.com/Dechcaudron/ArithEval)                 | GPLv3                | No  |2016-06-27|A minimal arithmetic expression evaluation library for D
-| [botan-math](https://github.com/etcimon/botan-math)                   | BSD 2                | Yes |2016-08-23|Matrix Math for Botan Crypto
-| [cblas](https://github.com/DlangScience/cblas)                        | BSL 1                | Yes  |2017-07-06|D BLAS header. Works with OpenBLAS.
+| [botan-math](https://github.com/etcimon/botan-math)                   | BSD 2                | Yes |2017-10-18|Matrix Math for Botan Crypto
+| [cblas](https://github.com/DlangScience/cblas)                        | BSL 1                | Yes  |2017-10-28|D BLAS header. Works with OpenBLAS.
 | [checkedint](https://github.com/tsbockman/checkedint)                 | BSL 1                | Yes |2017-04-21|D module that provides safer integer math operations and types
 | [desmath](https://github.com/dexset/desmath)                          | MIT                  | Yes |2016-01-07|math
-| [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes |2017-08-31|A statistics library for D.
+| [dstats](https://github.com/DlangScience/dstats)                      | Various              | Yes |2017-10-28|A statistics library for D.
 | [gl3n](https://github.com/Dav1dde/gl3n)                               | MIT                  | Yes |2017-08-15|OpenGL Maths for D (not glm for D).
 | [linalg](https://github.com/vsn4ik/linalg)                            | MIT                  | Yes  |2017-09-02|Linear algebra for D programming language.
-| [lubeck](https://github.com/kaleidicassociates/lubeck)                | BSL 1                | Yes  |2017-06-11|High level linear algebra library for Dlang
+| [lubeck](https://github.com/kaleidicassociates/lubeck)                | BSL 1                | Yes  |2017-10-27|High level linear algebra library for Dlang
 | [mir-vectorflow](https://github.com/libmir/vectorflow)                | Apache 2             | Yes |2017-09-26|Mir implementation: Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 | [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  |2017-09-16|A simple @nogc matrix math library for the D Programming language.
-| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  |2017-09-29|numpy-like API wrappers of mir
-| [mir-glas](https://github.com/libmir/mir-glas)                        | BSL 1                | No   |2017-09-18|[Experimental] LLVM-accelerated Generic Linear Algebra Subprograms
+| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  |2017-10-27|numpy-like API wrappers of mir
+| [mir-glas](https://github.com/libmir/mir-glas)                        | BSL 1                | No   |2017-10-27|[Experimental] LLVM-accelerated Generic Linear Algebra Subprograms
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
 | [vecd](https://github.com/nucular/vecd)                               | GPLv3                | Yes  |2015-09-05|Vector module expanding the vector extensions of D
 
@@ -327,7 +327,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [checkit](https://github.com/LLC-CERERIS/checkit)                     | MIT                  | Yes |2017-08-01|BDD testing framework for D.
 | [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes |2016-10-20|Advanced unit testing toolkit for the D programming language
-| [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-09-24|Advanced unit test framework for D (includes unittest blocks)
+| [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-10-17|Advanced unit test framework for D (includes unittest blocks)
 
 # user interface
 | library                                                               | license              | GC |last update| description
@@ -344,7 +344,7 @@ Also you might be interested in other related, but different lists:
 # miscellaneous
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-06-24|CPU Identification Routines
+| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-10-27|CPU Identification Routines
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
 | [miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes |2017-03-31|String matching library for Dlang
 | [natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes |2017-07-06|Human-natural string comparison algorithm
