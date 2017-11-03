@@ -27,7 +27,7 @@ Once a library is removed the name will be moved to [removed.md](removed.md) wit
 
 Also you might be interested in other related, but different lists:
 
-- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python. |2017-11-02|  A curated list of awesome D documents, frameworks, libraries and software. Inspired by awesome-python.
+- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python. ||
 
 ### Categories:
 
@@ -205,6 +205,7 @@ Also you might be interested in other related, but different lists:
 | [database](https://github.com/huntlabs/database)                      | Apache 2             | Yes |2017-10-13|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [db](https://github.com/viile/db)                                     | Apache 2             | Yes |2017-09-18|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [dbal](https://github.com/huntlabs/dbal)                              | Apache 2             | Yes |2017-10-10|Database Abstraction Layer for dlang, can construct SQL statements.
+| [Dvorm](https://github.com/rikkimax/Dvorm)                            | MIT                  | Yes |2016-05-12|An orm for D with Vibe support.
 | [entity](https://github.com/huntlabs/entity)                          | Apache 2             | Yes |2017-10-30|An object-relational mapping (ORM) framework for dlang's database,  support PostgreSQL / MySQL / SQLite.
 | [mondo](https://github.com/2night/mondo)                              | MIT                  | Yes |2017-10-05|D library for MongoDb (over mongo-c-library)
 | [MongoSchemaD](https://github.com/WebFreak001/MongoSchemaD)           | MIT                  | Yes |2017-10-04|Support for more structured MongoDB databases
@@ -233,20 +234,28 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [dagon](https://github.com/gecko0307/dagon)                           |  BSL 1               | Yes |2017-10-31|3D game engine for D
-| [dvpe](https://github.com/kuviman/dvpe)                               |  Unknown               | Yes |2017-01-12|2D Game Engine for the D Programming Language
+| [DAllegro](https://github.com/SiegeLord/DAllegro5)                    | Zlib                 | Yes |2016-10-02|D binding to the Allegro5 game development library
+| [dash](https://github.com/Circular-Studios/Dash)                      | MIT                  | Yes |2016-02-08|A free and open 3D game engine written in D.
+| [DSFML](https://github.com/Jebbs/DSFML)                               | Zlib                 | Yes |2017-10-24|DSFML is a D binding of SFML 
+| [dvpe](https://github.com/kuviman/dvpe)                               |  Unknown             | Yes |2017-01-12|2D Game Engine for the D Programming Language
+| [GFM](https://github.com/d-gamedev-team/gfm)                          | Unlicense            | Yes |2017-11-03|D gamedev toolkit.
 | [orb](https://github.com/claudemr/orb)                                |  GPLv3               | Yes |2017-08-11|3D-voxel engine
-| [RaiderEngine](https://github.com/Raiderium/RaiderEngine)             |  MIT               | Yes |2017-05-12|A small game engine in D.
+| [RaiderEngine](https://github.com/Raiderium/RaiderEngine)             |  MIT                 | Yes |2017-05-12|A small game engine in D.
 | [tharsis.prof](https://github.com/kiith-sa/tharsis.prof)              |  ?                   | Yes |2016-11-01|Frame profiler library for game development in D.
-| [unecht](https://github.com/Extrawurst/unecht)                        |  MIT               | Yes |2017-06-11|Game Engine Framework for the D programming language
+| [unecht](https://github.com/Extrawurst/unecht)                        |  MIT                 | Yes |2017-06-11|Game Engine Framework for the D programming language
 | [voxelman](https://github.com/MrSmith33/voxelman)                     |  BSL 1               | Yes |2017-11-03|Plugin-based client-server voxel game engine written in D language
 
 # graphics
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [DerelictGL3](https://github.com/DerelictOrg/DerelictGL3)             | Boost                | Yes |2017-08-28|A dynamic binding to OpenGL for the D Programming Language.
+| [DerelictLibUI](https://github.com/Extrawurst/DerelictLibui)          | MIT                  | Yes |2016-08-01|Dynamic Binding for libui (https://github.com/andlabs/libui) in D
 | [dgfxbase](https://github.com/bioglaze/dgfxbase)                      | MIT                  | Yes |2017-10-31|OpenGL 4.5 basecode using D language and Derelict
 | [dgui](https://github.com/o3o/dguihub)                                | Boost                | Yes |2017-08-21|D Win32 Graphic Library
 | [dlangui](https://github.com/buggins/dlangui)                         | BSL 1                | Yes |2017-11-03|Cross Platform GUI for D programming language
+| [dwt](https://github.com/d-widget-toolkit/dwt)                        | ?                    | Yes |2017-10-24|A library for creating cross-platform GUI applications.
+| [dqml](https://github.com/filcuc/dqml)                                | LGPLv3               | Yes |2017-07-29|Qt Qml bindings for the D programming language
+| [GtkD](https://github.com/gtkd-developers/GtkD) 	                    | LGPLv3               | Yes |2017-11-01|GtkD is a D binding and OO wrapper of GTK+
 | [gtkui](https://github.com/deviator/gtkui)                            | MIT                  | Yes |2017-10-22|aux lib for using with glade ui builder
 | [glamour](https://github.com/Dav1dde/glamour)                         | MIT                  | Yes |2016-10-05|OpenGL wrapper for the D programming language.
 | [nice-curses](https://github.com/mpevnev/nice-curses)                 | BSL                  | Yes |2017-09-25|A ncurses wrapper and an UI library for D programming language
@@ -254,6 +263,8 @@ Also you might be interested in other related, but different lists:
 | [pdcurses-d](https://github.com/unleashy/pdcurses-d)                   | MIT                | Yes |2017-09-09|D bindings for pdcurses
 | [poison-ui](https://github.com/PoisonEngine/poison-ui)                | MIT                  | Yes |2016-12-10|A cross-platform desktop/mobile UI engine written in D using dsfml
 | [QTE5](https://github.com/MGWL/QtE5)                                  | GPLv3                | Yes |2017-10-30|It is wrapper Qt 5 for programming language D. (http://www.dlang.org)
+| [Sciter-Dport](https://github.com/sciter-sdk/Sciter-Dport)            | MIT                  | Yes |2017-06-12|Port of Sciter headers for the D language
+| [tkd](https://github.com/nomad-software/tkd)                          | MIT                  | Yes |2017-05-28|GUI toolkit for the D programming language based on Tcl/Tk
 
 # hardware
 | library                                                               | license              | GC |last update| description
@@ -330,8 +341,12 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [buffer](https://github.com/shove70/buffer)                          |  MIT                  | Yes |2017-10-25|protocol buffer & rpc
+| [cerealed](https://github.com/atilaneves/cerealed)                    | BSD                  | Yes |2017-08-18|Powerful binary serialisation library for D
+| [dproto](https://github.com/msoucy/dproto)                            | BSL 1.0              | Yes |2017-08-31|D Protocol Buffer mixins to create structures at compile time
 | [hprose](https://github.com/hprose/hprose-d)                          |  MIT                 | Yes |2016-11-14|Hprose for Dlang
+| [experimental.xtml](https://github.com/lodo1995/experimental.xml)      | Boost                 | No |2017-07-27|A replacement of Phobos std.xml
 | [msgpack-ll](https://github.com/jpf91/msgpack-ll)                     | BSL 1                | No  |2017-04-18|A low level @nogc, nothrow, @safe, pure and betterC compatible msgpack.org[D] library
+| [orange](https://github.com/jacob-carlborg/orange)                    | BSL 1                | Yes |2017-10-05|A serialization library for the D programming language.
 | [kiss-rpc](https://github.com/huntlabs/kiss-rpc)                          |  Apache 2                 | Yes |2017-09-25|Ultra high performance RPC
 | [viberpc-channel](https://github.com/jpf91/vibe-rpcchannel)          |  BSL 1                 | Yes |2017-04-17|A RPC TCP/Noise server and client for vibe.D
 | [xmlrpcc-d](https://github.com/o3o/xmlrpcc-d)                          |  Boost                  | Yes |2017-02-23|XML-RPC client for D Programming Language
@@ -352,6 +367,8 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [infiled](https://github.com/burner/inifiled)                         |  LGPL 3              | Yes |2017-07-29|a compile time ini file parser and writter generator for D
+| [Slang-D](https://github.com/Abscissa/SDLang-D)                       | Zlib                 | Yes |2017-08-05|An SDLang (Simple Declarative Language) library for D
+| [D-YAML](https://github.com/dlang-community/D-YAML)                   | Boost                | Yes |2017-10-27|YAML parser and emitter for the D programming language
 
 # profiling
 | library                                                               | license              | GC |last update| description
