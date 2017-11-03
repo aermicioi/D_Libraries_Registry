@@ -50,8 +50,7 @@ Also you might be interested in other related, but different lists:
     - [configuration files](#configuration files)
     - [other parsing](#parsing)
   - graphics
-    - [textmode](#graphics-text)
-    - [graphics](#graphics-3d)
+    - [graphics](#graphics)
     - [3D geometry file processing](#geometry-file)
     - [image loading, saving, & processing](#images)
   - audio/video/data compression
@@ -66,6 +65,7 @@ Also you might be interested in other related, but different lists:
     - [debugging](#debugging)
     - [profiling](#profiling)
     - [unit testing](#tests)
+  - [game engines and frameworks](#games)
   - other
     - [AI](#ai)
     - [cryptography](#crypto)
@@ -82,6 +82,7 @@ Also you might be interested in other related, but different lists:
 | [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-10-29|Math, XML, I/O streams, image and audio processing for D
 | [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-10-25|my D user library
 | [fast](https://github.com/mleise/fast)                                | GPLv3                | No  |2017-08-11|A library for D that aims to provide the fastest possible implementation of some every day routines.
+| [mach.d](https://github.com/pineapplemachine/mach.d)                  | Zlib                 | Yes ||
 | [jive](https://github.com/krox/jive)                                  | Public Domain        | No  |2017-09-19|Collections library for D with STL-like value-semantics.
 | [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  |2017-10-09|A refined core library for D programming language. include aio / timer etc.
 | [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-10-27|General purpose, platform-dependant, high-performance library for D
@@ -99,6 +100,7 @@ Also you might be interested in other related, but different lists:
 | [Diamond](https://github.com/DiamondMVC/Diamond)                      | MIT                  | Yes |2017-10-28|Diamond is a powerful MVC / Template Framework written in the D Programming Language.
 | [hunt](https://github.com/huntlabs/hunt)                              | Apache 2             | Yes |2017-10-30|A high performance full-stack Web framework written in dlang.
 | [Ocean](https://github.com/sociomantic-tsunami/swarm)                 | BSL 1                | No  |2017-10-27|Asynchronous client/node framework library
+| [Orwell](https://github.com/mattremmel/Orwell)                        | proprietary          | Yes ||
 | [turtle](https://github.com/sociomantic-tsunami/turtle)               | BSL                  | Yes |2017-10-23|Black box application testing library/framework
 | [orm](https://github.com/viile/orm)                                   | Apache 2                  | Yes |2017-09-18|An object-relational mapping (ORM) framework for dlang's database, support PostgreSQL / MySQL / SQLite.
 | [collie](https://github.com/huntlabs/collie)                          | Apache 2                  | Yes |2017-09-13|An asynchronous event-driven network framework written in D.
@@ -107,6 +109,7 @@ Also you might be interested in other related, but different lists:
 | [poodonis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-09-01|A dependency injection framework for D with support for autowiring.
 | [dchem](https://github.com/fawzi/dchem)                               |  ?                  | Yes |2017-07-25|a chemistry simulation, and electrostatic embedding framework in D
 | [caraus](https://github.com/caraus-ecms/caraus)                       |  MPL 2                  | Yes |2017-01-11|Web framework for the D programming language in development
+| [yu](https://github.com/dushibaiyu/yu)                                | Apache 2             | Yes ||
 
 # AI
 | library                                                               | license              | gc |last update| description
@@ -115,6 +118,7 @@ Also you might be interested in other related, but different lists:
 | [dnnet](https://github.com/henrygouk/dnnet)                           | Mit                  | Yes |2016-07-01|An artificial neural networks library.
 | [doll](https://github.com/putyy/doll)                                 | Proprietary          | Yes |2017-10-14|D Optimization Library for Learning
 | [dopt](https://github.com/henrygouk/dopt)                             | BSD 3 clause         | Yes |2017-10-25|A numerical optimisation and deep learning framework for D.
+| [neuralnet](https://github.com/bloodythorn/neuralNet)                 | MIT                  | Yes ||
 | [vectorflow](https://github.com/Netflix/vectorflow)                   | Apache 2             | Yes |2017-09-26|Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 
 # argv
@@ -151,12 +155,13 @@ Also you might be interested in other related, but different lists:
 # concurrency
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [jin.go](https://github.com/nin-jin/go.d)                             | Public Domain        | Yes |2017-01-07|Wait free thread communication
+| [cheetah](https://github.com/bausshf/cheetah)                        | MIT                  | Yes ||
 | [workermanager](https://github.com/alphaKAI/workermanager)            | Unknown              | Yes |2017-03-31|Multi-thread based asynchronized worker manager
 | [eventcore](https://github.com/vibe-d/eventcore)                      | MIT                  | No  |2017-10-03|High performance proactor event loop abstraction library
 | [libasync](https://github.com/etcimon/libasync)                       | MIT                  | Yes  |2017-05-29|Cross-platform event loop library of asynchronous objects
 | [EventSystem](https://github.com/WebFreak001/EventSystem)             | Unlicense            | Yes  |2017-04-11|Tiny event system in D using delegates
 | [eventmanager](https://github.com/AndrewSChapman/eventmanager)        | BSL 1                | Yes  |2017-06-30|Written for the "D" programming language, this library implements a variant of the pub/sub pattern, using events, an event list and event dispatchers
+| [jin.go](https://github.com/nin-jin/go.d)                             | Public Domain        | Yes |2017-01-07|Wait free thread communication
 | [subscribed](https://github.com/v--/subscribed)                       | BSL 1                | Yes  |2017-07-10|A minimalistic library providing eventing-related structures.
 
 # configuration files
@@ -173,6 +178,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [botan](https://github.com/etcimon/botan)                             | Unknown/Closed       | Yes |2017-10-18|Block & stream ciphers, public key crypto, hashing, KDF, MAC, PKCS, TLS, ASN.1, BER/DER, etc.
+| [cryption](https://github.com/shove70/cryption)                       | Apache 2             | Yes ||
 
 # data structures
 | library                                                               | license              | GC |last update| description
@@ -223,29 +229,49 @@ Also you might be interested in other related, but different lists:
 | [proped](https://github.com/milofon/proped)                           | BSD                  | Yes |2017-08-25|A library for reading properties files
 | [trashcan](https://github.com/FreeSlave/trashcan)                     | BSL 1                | Yes |2017-03-28|Move files to trash can in D programming language
 
-# geometry file
+# games
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
-# graphics (text)
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dagon](https://github.com/gecko0307/dagon)                           |  BSL 1               | Yes ||
+| [dvpe](https://github.com/kuviman/dvpe)                               |  Unknown               | Yes ||
+| [orb](https://github.com/claudemr/orb)                                |  GPLv3               | Yes ||
+| [RaiderEngine](https://github.com/Raiderium/RaiderEngine)             |  MIT               | Yes ||
+| [tharsis.prof](https://github.com/kiith-sa/tharsis.prof)              |  ?                   | Yes ||
+| [unecht](https://github.com/Extrawurst/unecht)                        |  MIT               | Yes ||
+| [voxelman](https://github.com/MrSmith33/voxelman)                     |  BSL 1               | Yes ||
 
 # graphics
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [DerelictGL3](https://github.com/DerelictOrg/DerelictGL3)             | Boost                | Yes ||
+| [dgfxbase](https://github.com/bioglaze/dgfxbase)                      | MIT                  | Yes ||
+| [dgui](https://github.com/o3o/dguihub)                                | Boost                | Yes ||
+| [dlangui](https://github.com/buggins/dlangui)                         | BSL 1                | Yes ||
+| [gtkui](https://github.com/deviator/gtkui)                            | MIT                  | Yes || 
+| [glamour](https://github.com/Dav1dde/glamour)                         | MIT                  | Yes ||
+| [nice-curses](https://github.com/mpevnev/nice-curses)                 | BSL                  | Yes ||
+| [opengl-d](https://github.com/WebFreak001/opengl-d)                   | Boost                | Yes ||
+| [pdcurses-d](https://github.com/unleashy/pdcurses-d)                   | MIT                | Yes ||
+| [poison-ui](https://github.com/PoisonEngine/poison-ui)                | MIT                  | Yes ||
+| [QTE5](https://github.com/MGWL/QtE5)                                  | GPLv3                | Yes ||
 
 # hardware
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [nel-d](https://github.com/Bananattack/nel-d)                         | MIT                  | ? ||
 
 # hashing
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [sha1ct](https://github.com/WebFreak001/sha1ct)                       | ?                    | Yes ||
 
 # images
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [daffodil](https://github.com/BenjaminSchaaf/daffodil)                | MIT                | Yes ||
+| [img-d](https://github.com/rtbo/img-d)                                | MIT                | Yes ||
+| [imageformats](https://github.com/lgvz/imageformat)                   | Boost                | Yes ||
+| [rip](https://github.com/LightHouseSoftware/rip)                      | GPLv3                | Yes ||
 
 # IO
 | library                                                               | license              | GC  |last update| description
@@ -286,6 +312,14 @@ Also you might be interested in other related, but different lists:
 # network
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dlang-requests](https://github.com/ikod/dlang-requests)              | BSL 1                | Yes ||
+| [libhttp2](https://github.com/etcimon/libhttp2)                       | MIT                  | Yes ||
+| [nanomsg-wrapper](https://github.com/kaleidicassociates/nanomsg-wrapper)               | Boost                | No ||
+| [nbuff](https://github.com/ikod/nbuff)                                | BSL 1                | Yes ||
+| [netkit](https://github.com/huntlabs/netkit)                        | Apache 2                | Yes ||
+| [networkD](https://github.com/Nafees10/networkD)                      | MIT                  | Yes ||
+| [requests](https://github.com/burner/requests)                        | GPLv3                | No ||
+
 
 # regex
 | library                                                               | license              | GC |last update| description
@@ -299,11 +333,20 @@ Also you might be interested in other related, but different lists:
 | [hprose](https://github.com/hprose/hprose-d)                          |  MIT                 | Yes |2016-11-14|Hprose for Dlang
 | [msgpack-ll](https://github.com/jpf91/msgpack-ll)                     | BSL 1                | No  |2017-04-18|A low level @nogc, nothrow, @safe, pure and betterC compatible msgpack.org[D] library
 | [kiss-rpc](https://github.com/huntlabs/kiss-rpc)                          |  Apache 2                 | Yes |2017-09-25|Ultra high performance RPC
+| [viberpc-channel](https://github.com/jpf91/vibe-rpcchannel)          |  BSL 1                 | Yes ||
 | [xmlrpcc-d](https://github.com/o3o/xmlrpcc-d)                          |  Boost                  | Yes |2017-02-23|XML-RPC client for D Programming Language
 
 # json
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [asdf](https://github.com/tamediadigital/asdf)                        | BSL 1               | Yes ||
+| [fastjwt](https://github.com/burner/fastjwt)                          | BSL                  | No ||
+| [json.d](https://github.com/SirTony/json.d)                           | MIT                  | Yes ||
+| [jsonserailized](https://github.com/forbjok/jsonserialized)           | MIT                  | Yes ||
+| [jsonzer](https://github.com/rcorre/jsonizer)                         | MIT                  | Yes ||
+| [jwt](https://github.com/zolamk/jwt)                                  |  MIT                 | Yes ||
+| [jwtd](https://github.com/olehlong/jwtd)                              | MIT                  | Yes ||
+| [painlessjson](https://github.com/BlackEdder/painlessjson)            | BSL                  | Yes ||
 
 # parsing
 | library                                                               | license              | GC |last update| description
@@ -317,10 +360,9 @@ Also you might be interested in other related, but different lists:
 # randomization
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
-# scripting
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| [dxorshift](https://github.com/WebDrake/dxorshift)                    | CC0                  | Yes ||
+| [hap](https://github.com/WebDrake/hap)                                | BSL 1                | Yes ||
+| [mir-random](https://github.com/libmir/mir-random)                    | BSL 1                | No  || 
 
 # tests
 | library                                                               | license              | GC |last update| description
@@ -328,14 +370,6 @@ Also you might be interested in other related, but different lists:
 | [checkit](https://github.com/LLC-CERERIS/checkit)                     | MIT                  | Yes |2017-08-01|BDD testing framework for D.
 | [dunit](https://github.com/nomad-software/dunit)                      | MIT                  | Yes |2016-10-20|Advanced unit testing toolkit for the D programming language
 | [unit-threaded](https://github.com/atilaneves/unit-threaded)          | BSD                  | Yes |2017-10-17|Advanced unit test framework for D (includes unittest blocks)
-
-# user interface
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-
-# vectors
-| library                                                               | license              | GC |last update| description
-|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 
 # video
 | library                                                               | license              | GC |last update| description
@@ -345,8 +379,10 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-10-27|CPU Identification Routines
+| [dpeq](https://github.com/Boris-Barboris/dpeq)                        | MIT                  | Yes ||
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
 | [miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes |2017-03-31|String matching library for Dlang
+| [modbus](https://github.com/deviator/modbus)                          | MIT                  | Yes ||
 | [natcmp](https://github.com/Herringway/natcmp)                         | BSL 1                | Yes |2017-07-06|Human-natural string comparison algorithm
 | [kafka-d](https://github.com/tamediadigital/kafka-d)                   | MIT                  | Yes |2017-01-10|kafka-d is a D Kafka client that depends on the vibe.d framework.
 | [stringex-d](https://github.com/katafrakt/stringex-d)                  | MIT                  | Yes |2017-07-24|Unicode to ASCII transcoder
