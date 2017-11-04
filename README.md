@@ -9,10 +9,13 @@ For any question or contribution, reache me via github pull requests and issues.
 ## New libraries and corrections
 
 Submissions of new libraries: I accept submissions (as issues or as pull requests). Please
-note that description and last update is optional because a script updates it once a day.
+note that description and last update is optional (for libraries that are hosted on github)
+because a script updates it once a day.
 
 Corrections: if information for a library above is wrong, please send a correction as an
 issue, pull request, or email. 
+
+Categories: I am open to discussions on the current categorization method. Reach to me on github.
 
 ## Quality
 
@@ -27,7 +30,8 @@ Once a library is removed the name will be moved to [removed.md](removed.md) wit
 
 Also you might be interested in other related, but different lists:
 
-- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python. ||
+- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python.
+- [Dub Registry](http://code.dlang.org/): The package registry used by DUB.
 
 ### Categories:
 
@@ -51,7 +55,6 @@ Also you might be interested in other related, but different lists:
     - [other parsing](#parsing)
   - graphics
     - [graphics](#graphics)
-    - [3D geometry file processing](#geometry-file)
     - [image loading, saving, & processing](#images)
   - audio/video/data compression
     - [compression](#compression)
