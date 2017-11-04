@@ -133,7 +133,6 @@ Also you might be interested in other related, but different lists:
 | [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes |2017-01-04|A more robust command line argument parser for D.
 | [ctoptions](https://github.com/Soulsbane/ctoptions)                   | Copyright            | Yes |2017-11-04|A D Programming Language library for handling a key/value config file format at compile-time.
 | [darg](https://github.com/jasonwhite/darg)                            | Mit                  | Yes |2017-03-21|Robust command line argument parsing for D.
-| [inilike](https://github.com/FreeSlave/inilike)                       | BSL 1             | Yes |2017-10-23|D library for parsing .ini-like files used in Freedesktop systems
 | [parseopts](https://github.com/mitchgrout/parseopts)                  | Unknown              | Yes |2017-02-15|Basic command-line options parser written in D
 
 # audio
@@ -172,6 +171,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [aedi-property-reader](https://github.com/aermicioi/aedi-property-reader)     | BSL 1        | Yes |2017-08-22|Aedi extension, that loads data from multiple sources (environment, xml, json, etc.)
 | [configd](https://github.com/LightBender/configd)                     | BSL 1                | Yes |2016-12-08|Key/Value Configuration Library for D
+| [inilike](https://github.com/FreeSlave/inilike)                       | BSL 1             | Yes |2017-10-23|D library for parsing .ini-like files used in Freedesktop systems
 | [libconfig-d](https://github.com/rtbo/libconfig-d)                    | BSD 3                | Yes |2016-10-16|Port of libconfig to the D programming language
 | [onyx-config](https://github.com/nykytenko/onyx-config)               | MIT                  | Yes |2017-08-31|Working with configuration data in run-time (D lang)
 | [runtimer](https://github.com/chrishalebarnes/runtimer)               | MIT                  | Yes |2016-04-23|Application runtime configuration for applications built in the D programming language.
@@ -229,7 +229,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [d-glob](https://github.com/workhorsy/d-glob)                         | BSL 1                | Yes |2017-09-28|Search file systems with glob patterns using the D programming language
-| [FreeSlave](https://github.com/FreeSlave/lnk)                         | BSL 1                | Yes |2017-02-03|D library for parsing .lnk files
+| [lnk](https://github.com/FreeSlave/lnk)                         | BSL 1                | Yes |2017-02-03|D library for parsing .lnk files
 | [FSWatch](https://github.com/WebFreak001/FSWatch)                     | BSL 1                | Yes |2017-10-21|A cross-platform folder & file watching library using win32, inotify or std.file
 | [proped](https://github.com/milofon/proped)                           | BSD                  | Yes |2017-08-25|A library for reading properties files
 | [trashcan](https://github.com/FreeSlave/trashcan)                     | BSL 1                | Yes |2017-03-28|Move files to trash can in D programming language
