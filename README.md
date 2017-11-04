@@ -109,7 +109,7 @@ Also you might be interested in other related, but different lists:
 | [collie](https://github.com/huntlabs/collie)                          | Apache 2                  | Yes |2017-09-13|An asynchronous event-driven network framework written in D.
 | [endovena](https://github.com/o3o/endovena)                           | Boost                  | Yes |2017-09-08|Simple dependency injection framework for D
 | [dich](https://github.com/LLC-CERERIS/dich)                           |  MIT                  | Yes |2017-08-29|Simple dependency injection framework for D. Based on endovena similar work.
-| [poodonis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-09-01|A dependency injection framework for D with support for autowiring.
+| [poodinis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-09-01|A dependency injection framework for D with support for autowiring.
 | [dchem](https://github.com/fawzi/dchem)                               |  ?                  | Yes |2017-07-25|a chemistry simulation, and electrostatic embedding framework in D
 | [caraus](https://github.com/caraus-ecms/caraus)                       |  MPL 2                  | Yes |2017-01-11|Web framework for the D programming language in development
 | [yu](https://github.com/dushibaiyu/yu)                                | Apache 2             | Yes |2017-08-16|Dlang‘s Toolkit
