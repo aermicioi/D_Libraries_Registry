@@ -30,8 +30,8 @@ Once a library is removed the name will be moved to [removed.md](removed.md) wit
 
 Also you might be interested in other related, but different lists:
 
-- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python.
-- [Dub Registry](http://code.dlang.org/): The package registry used by DUB.
+- [Awesome D](https://github.com/zhaopuming/awesome-d): A curated list of awesome D frameworks, libraries and software. Inspired by awesome-python.||
+- [Dub Registry](http://code.dlang.org/): The package registry used by DUB.||
 
 ### Categories:
 
@@ -83,13 +83,13 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-10-25|D2 library for games, network applications etc.
 | [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-10-30|Math, XML, I/O streams, image and audio processing for D
-| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-11-02|nogc: streams, containers; rtti: properties, serializer, binder; other: reasonable and crazy things.
+| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-11-02|nogc: streams, containers; rtti: properties, serializer, binder; reasonable and crazy things;
 | [fast](https://github.com/mleise/fast)                                | GPLv3                | No  |2017-08-11|A library for D that aims to provide the fastest possible implementation of some every day routines.
 | [mach.d](https://github.com/pineapplemachine/mach.d)                  | Zlib                 | Yes |2017-10-31|Library for the D programming language.
 | [jive](https://github.com/krox/jive)                                  | Public Domain        | No  |2017-09-19|Collections library for D with STL-like value-semantics.
 | [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  |2017-10-09|A refined core library for D programming language. include aio / timer etc.
 | [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-11-03|General purpose, platform-dependant, high-performance library for D
-| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-11-03|The standard library of the D programming language
+| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-11-04|The standard library of the D programming language
 | [Tango-D2](https://github.com/SiegeLord/Tango-D2)                     | BSD                  | Yes |2016-04-01|A port of the Tango library to D2
 | [tango-rt](https://github.com/sociomantic-tsunami/tangort)            | BSD                  | No  |2017-09-27|Tango D1 runtime library
 | [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-11-03|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
@@ -100,7 +100,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [big.d](https://github.com/LLC-CERERIS/big.d)                         | MIT                  | Yes |2017-10-26|MVC Web framework for D
 | [Cmsed](https://github.com/rikkimax/Cmsed)                            | MIT                  | Yes |2015-01-23|A component library for Vibe that functions as a CMS.
-| [Diamond](https://github.com/DiamondMVC/Diamond)                      | MIT                  | Yes |2017-11-03|Diamond is a powerful MVC / Template Framework written in the D Programming Language, inspired by ASP.NET using vibe.d as backend.
+| [Diamond](https://github.com/DiamondMVC/Diamond)                      | MIT                  | Yes |2017-11-04|Diamond is a powerful MVC / Template Framework written in the D Programming Language, inspired by ASP.NET using vibe.d as backend.
 | [hunt](https://github.com/huntlabs/hunt)                              | Apache 2             | Yes |2017-10-30|A high performance full-stack Web framework written in dlang.
 | [Ocean](https://github.com/sociomantic-tsunami/swarm)                 | BSL 1                | No  |2017-11-02|Asynchronous client/node framework library
 | [Orwell](https://github.com/mattremmel/Orwell)                        | proprietary          | Yes |2017-08-16|A security framework and proxy for analyzing network traffic and web applications.
@@ -131,7 +131,7 @@ Also you might be interested in other related, but different lists:
 | [argon](https://github.com/markuslaker/Argon)                         | ISC                  | Yes |2017-02-20|A processor for command-line arguments, an alternative to Getopt, written in D
 | [commander.d](https://github.com/yamadapc/commander.d)                | MIT                  | Yes |2016-04-11|Command-line interfaces in D made easy. Easy command-line parsing based in commander.js.
 | [commando](https://github.com/SirTony/commando/)                      | MIT                  | Yes |2017-01-04|A more robust command line argument parser for D.
-| [ctoptions](https://github.com/Soulsbane/ctoptions)                   | Copyright            | Yes |2017-10-27|A D Programming Language library for handling a key/value config file format at compile-time.
+| [ctoptions](https://github.com/Soulsbane/ctoptions)                   | Copyright            | Yes |2017-11-04|A D Programming Language library for handling a key/value config file format at compile-time.
 | [darg](https://github.com/jasonwhite/darg)                            | Mit                  | Yes |2017-03-21|Robust command line argument parsing for D.
 | [inilike](https://github.com/FreeSlave/inilike)                       | BSL 1             | Yes |2017-10-23|D library for parsing .ini-like files used in Freedesktop systems
 | [parseopts](https://github.com/mitchgrout/parseopts)                  | Unknown              | Yes |2017-02-15|Basic command-line options parser written in D
@@ -140,7 +140,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [Ddsp](https://github.com/abaga129/Ddsp)                              | MIT                  | Yes |2017-10-24|A library for Digital Signal Processing in D with a focus on audio
-| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes |2017-11-03|Dplug is a library for creating native audio plugins (VST / AU) as simply as possible.
+| [Dplug](https://github.com/AuburnSounds/Dplug)                        | Various              | Yes |2017-11-04|Dplug is a library for creating native audio plugins (VST / AU) as simply as possible.
 | [dlang-jack](https://github.com/martinez/dlang-jack)                  | BSL 1                | Yes |2016-08-11|Idiomatic D API binding for the JACK Audio Connection Kit
 | [DerelictFmod](https://github.com/Extrawurst/DerelictFmod)            | MIT                | Yes |2017-09-20|Dynamic bindings of the fmod sound library in the D programming language
 | [djack](https://github.com/cosenmarco/djack)                          | GPLv3                | Yes |2014-07-13|D interface for JACK audio server
@@ -210,6 +210,7 @@ Also you might be interested in other related, but different lists:
 | [dbal](https://github.com/huntlabs/dbal)                              | Apache 2             | Yes |2017-10-10|Database Abstraction Layer for dlang, can construct SQL statements.
 | [Dvorm](https://github.com/rikkimax/Dvorm)                            | MIT                  | Yes |2016-05-12|An orm for D with Vibe support.
 | [entity](https://github.com/huntlabs/entity)                          | Apache 2             | Yes |2017-10-30|An object-relational mapping (ORM) framework for dlang's database,  support PostgreSQL / MySQL / SQLite.
+| [mysql-native](https://github.com/mysql-d/mysql-native)               | Boost                | Tes |2017-10-20|Native D client driver for MySQL/MariaDB, works with or without Vibe.d
 | [mondo](https://github.com/2night/mondo)                              | MIT                  | Yes |2017-10-05|D library for MongoDb (over mongo-c-library)
 | [MongoSchemaD](https://github.com/WebFreak001/MongoSchemaD)           | MIT                  | Yes |2017-10-04|Support for more structured MongoDB databases
 | [postgres-native](https://github.com/Burgos/postgres-native)          | MIT                  | Yes |2017-02-01|Native D postgres client library
@@ -256,7 +257,7 @@ Also you might be interested in other related, but different lists:
 | [dgfxbase](https://github.com/bioglaze/dgfxbase)                      | MIT                  | Yes |2017-10-31|OpenGL 4.5 basecode using D language and Derelict
 | [dgui](https://github.com/o3o/dguihub)                                | Boost                | Yes |2017-08-21|D Win32 Graphic Library
 | [dlangui](https://github.com/buggins/dlangui)                         | BSL 1                | Yes |2017-11-03|Cross Platform GUI for D programming language
-| [dwt](https://github.com/d-widget-toolkit/dwt)                        | ?                    | Yes |2017-10-24|A library for creating cross-platform GUI applications.
+| [dwt](https://github.com/d-widget-toolkit/dwt)                        | EPL                  | Yes |2017-10-24|A library for creating cross-platform GUI applications.
 | [dqml](https://github.com/filcuc/dqml)                                | LGPLv3               | Yes |2017-07-29|Qt Qml bindings for the D programming language
 | [GtkD](https://github.com/gtkd-developers/GtkD) 	                    | LGPLv3               | Yes |2017-11-01|GtkD is a D binding and OO wrapper of GTK+
 | [gtkui](https://github.com/deviator/gtkui)                            | MIT                  | Yes |2017-10-22|aux lib for using with glade ui builder
@@ -382,7 +383,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [dxorshift](https://github.com/WebDrake/dxorshift)                    | CC0                  | Yes |2016-05-15|Random number generators from the extended Xorshift family
 | [hap](https://github.com/WebDrake/hap)                                | BSL 1                | Yes |2017-01-07|An experimental next-generation random number package for D's standard library
-| [mir-random](https://github.com/libmir/mir-random)                    | BSL 1                | No  |2017-11-03|Advanced Random Number Generators
+| [mir-random](https://github.com/libmir/mir-random)                    | BSL 1                | No  |2017-11-04|Advanced Random Number Generators
 
 # tests
 | library                                                               | license              | GC |last update| description
