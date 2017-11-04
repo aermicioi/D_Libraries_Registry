@@ -83,7 +83,7 @@ Also you might be interested in other related, but different lists:
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-10-25|D2 library for games, network applications etc.
 | [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-10-30|Math, XML, I/O streams, image and audio processing for D
-| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-11-02|my D user library
+| [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-11-02|nogc: streams, containers; rtti: properties, serializer, binder; other: reasonable and crazy things.
 | [fast](https://github.com/mleise/fast)                                | GPLv3                | No  |2017-08-11|A library for D that aims to provide the fastest possible implementation of some every day routines.
 | [mach.d](https://github.com/pineapplemachine/mach.d)                  | Zlib                 | Yes |2017-10-31|Library for the D programming language.
 | [jive](https://github.com/krox/jive)                                  | Public Domain        | No  |2017-09-19|Collections library for D with STL-like value-semantics.
