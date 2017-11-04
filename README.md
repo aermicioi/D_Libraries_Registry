@@ -412,3 +412,8 @@ Also you might be interested in other related, but different lists:
 ## Thanks
 
 Thanks to [nothings](https://github.com/nothings/single_file_libs) for inspiration.
+
+## TODO
+
+1. Automate some scraping from the DUB registry.
+2. Consider adding a tooling section for utilities that are not libraries but aid the development.
