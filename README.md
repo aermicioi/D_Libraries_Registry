@@ -204,7 +204,7 @@ Also you might be interested in other related, but different lists:
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
 | [basil](https://github.com/senselogic/BASIL)                          | GPLv3                | Yes |2017-10-07|Textual database builder.
-| [d2sqlite2](https://github.com/biozic/d2sqlite3)                      | BSL 1                | Yes |2017-11-01|A small wrapper around SQLite for the D programming language
+| [d2sqlite3](https://github.com/biozic/d2sqlite3)                      | BSL 1                | Yes |2017-11-01|A small wrapper around SQLite for the D programming language
 | [database](https://github.com/huntlabs/database)                      | Apache 2             | Yes |2017-10-13|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [db](https://github.com/viile/db)                                     | Apache 2             | Yes |2017-09-18|Database abstraction layer for D programing language, support PostgreSQL / MySQL / SQLite.
 | [dbal](https://github.com/huntlabs/dbal)                              | Apache 2             | Yes |2017-10-10|Database Abstraction Layer for dlang, can construct SQL statements.
