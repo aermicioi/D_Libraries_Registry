@@ -278,7 +278,7 @@ Also you might be interested in other related, but different lists:
 # hashing
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [sha1ct](https://github.com/WebFreak001/sha1ct)                       | ?                    | Yes |2017-06-14|sha1 hashing & uuid algorithm that works at compile time
+| [sha1ct](https://github.com/WebFreak001/sha1ct)                       | Unlicense            | Yes |2017-06-14|sha1 hashing & uuid algorithm that works at compile time
 
 # images
 | library                                                               | license              | GC |last update| description
