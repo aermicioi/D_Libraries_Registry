@@ -77,22 +77,23 @@ Also you might be interested in other related, but different lists:
     - [miscellaneous](#miscellaneous)
     - [logging](#logging)
     - [build systems](#build-systems)
+    - [time and dates](#time-dates)
 
 # Multi-purpose
 | library                                                               | license              | gc |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-12-06|D2 library for games, network applications etc.
+| [ae](https://github.com/CyberShadow/ae)                               | MPL 2                | Yes |2017-12-10|D2 library for games, network applications etc.
 | [Dlib](https://github.com/gecko0307/dlib)                             | Boost                | No  |2017-12-04|Math, XML, I/O streams, image and audio processing for D
 | [iz](https://github.com/BBasile/iz)                                   | Boost                | No  |2017-12-07|nogc: streams, containers; rtti: properties, serializer, binder; reasonable and crazy things;
 | [fast](https://github.com/mleise/fast)                                | GPLv3                | No  |2017-08-11|A library for D that aims to provide the fastest possible implementation of some every day routines.
 | [mach.d](https://github.com/pineapplemachine/mach.d)                  | Zlib                 | Yes |2017-10-31|Library for the D programming language.
 | [jive](https://github.com/krox/jive)                                  | Public Domain        | No  |2017-09-19|Collections library for D with STL-like value-semantics.
 | [kiss](https://github.com/huntlabs/kiss)                              | Apache 2             | No  |2017-12-06|A refined core library for D programming language. include aio / timer etc.
-| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-12-07|General purpose, platform-dependant, high-performance library for D
-| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-12-08|The standard library of the D programming language
+| [Ocean](https://github.com/sociomantic-tsunami/ocean)                 | BSD                  | No  |2017-12-09|General purpose, platform-dependant, high-performance library for D
+| [phobos](https://github.com/dlang/phobos)                             | Boost                | Yes |2017-12-10|The standard library of the D programming language
 | [Tango-D2](https://github.com/SiegeLord/Tango-D2)                     | BSD                  | Yes |2016-04-01|A port of the Tango library to D2
-| [tango-rt](https://github.com/sociomantic-tsunami/tangort)            | BSD                  | No  |2017-12-06|Tango D1 runtime library
-| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-12-03|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
+| [tango-rt](https://github.com/sociomantic-tsunami/tangort)            | BSD                  | No  |2017-12-09|Tango D1 runtime library
+| [Tanya](https://github.com/caraus-ecms/tanya)                         | MPL 2                | No  |2017-12-09|GC-free, high-performance D library: Containers, networking, metaprogramming, memory management, utilities
 | [Thrift-d](https://github.com/dhasenan/thrift-d)                      | Apache 2             | Yes |2017-09-17|Thrift library for the D programming language
 
 # frameworks
@@ -101,15 +102,15 @@ Also you might be interested in other related, but different lists:
 | [big.d](https://github.com/LLC-CERERIS/big.d)                         | MIT                  | Yes |2017-10-26|MVC Web framework for D
 | [Cmsed](https://github.com/rikkimax/Cmsed)                            | MIT                  | Yes |2015-01-23|A component library for Vibe that functions as a CMS.
 | [Diamond](https://github.com/DiamondMVC/Diamond)                      | MIT                  | Yes |2017-11-23|Diamond is a powerful MVC / Template Framework written in the D Programming Language, inspired by ASP.NET using vibe.d as backend.
-| [hunt](https://github.com/huntlabs/hunt)                              | Apache 2             | Yes |2017-12-07|A high performance full-stack Web framework written in dlang.
-| [Ocean](https://github.com/sociomantic-tsunami/swarm)                 | BSL 1                | No  |2017-12-06|Asynchronous client/node framework library
+| [hunt](https://github.com/huntlabs/hunt)                              | Apache 2             | Yes |2017-12-08|A high performance full-stack Web framework written in dlang.
+| [Ocean](https://github.com/sociomantic-tsunami/swarm)                 | BSL 1                | No  |2017-12-08|Asynchronous client/node framework library
 | [Orwell](https://github.com/mattremmel/Orwell)                        | proprietary          | Yes |2017-08-16|A security framework and proxy for analyzing network traffic and web applications.
-| [turtle](https://github.com/sociomantic-tsunami/turtle)               | BSL                  | Yes |2017-12-07|Black box application testing library/framework
+| [turtle](https://github.com/sociomantic-tsunami/turtle)               | BSL                  | Yes |2017-12-09|Black box application testing library/framework
 | [orm](https://github.com/viile/orm)                                   | Apache 2                  | Yes |2017-09-18|An object-relational mapping (ORM) framework for dlang's database, support PostgreSQL / MySQL / SQLite.
 | [collie](https://github.com/huntlabs/collie)                          | Apache 2                  | Yes |2017-09-13|An asynchronous event-driven network framework written in D.
 | [endovena](https://github.com/o3o/endovena)                           | Boost                  | Yes |2017-09-08|Simple dependency injection framework for D
 | [dich](https://github.com/LLC-CERERIS/dich)                           |  MIT                  | Yes |2017-08-29|Simple dependency injection framework for D. Based on endovena similar work.
-| [poodinis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-12-08|A dependency injection framework for D with support for autowiring.
+| [poodinis](https://github.com/mbierlee/poodinis)                       |  MIT                  | Yes |2017-12-09|A dependency injection framework for D with support for autowiring.
 | [dchem](https://github.com/fawzi/dchem)                               |  ?                  | Yes |2017-07-25|a chemistry simulation, and electrostatic embedding framework in D
 | [caraus](https://github.com/caraus-ecms/caraus)                       |  MPL 2                  | Yes |2017-01-11|Web framework for the D programming language in development
 | [yu](https://github.com/dushibaiyu/yu)                                | Apache 2             | Yes |2017-08-16|Dlang‘s Toolkit
@@ -319,7 +320,7 @@ Also you might be interested in other related, but different lists:
 | [lubeck](https://github.com/kaleidicassociates/lubeck)                | BSL 1                | Yes  |2017-10-27|High level linear algebra library for Dlang
 | [mir-vectorflow](https://github.com/libmir/vectorflow)                | Apache 2             | Yes |2017-09-26|Mir implementation: Vectorflow is a minimalist neural network library optimized for sparse data and single machine environments.
 | [numd](https://github.com/Rob-Rau/numd)                               | MIT                  | No  |2017-09-16|A simple @nogc matrix math library for the D Programming language.
-| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  |2017-10-27|numpy-like API wrappers of mir
+| [numir](https://github.com/libmir/numir)                              | BSL 1                | Yes  |2017-12-09|numpy-like API wrappers of mir
 | [mir-glas](https://github.com/libmir/mir-glas)                        | BSL 1                | No   |2017-12-02|[Experimental] LLVM-accelerated Generic Linear Algebra Subprograms
 | [scid](https://github.com/DlangScience/scid)                          | Boost                | Yes |2017-07-27|Scientific library for the D programming language
 | [vecd](https://github.com/nucular/vecd)                               | GPLv3                | Yes  |2015-09-05|Vector module expanding the vector extensions of D
@@ -344,7 +345,7 @@ Also you might be interested in other related, but different lists:
 # serialization-rpc
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [buffer](https://github.com/shove70/buffer)                          |  MIT                  | Yes |2017-12-05|protocol buffer & rpc
+| [buffer](https://github.com/shove70/buffer)                          |  MIT                  | Yes |2017-12-08|protocol buffer & rpc
 | [cerealed](https://github.com/atilaneves/cerealed)                    | BSD                  | Yes |2017-12-07|Powerful binary serialisation library for D
 | [dproto](https://github.com/msoucy/dproto)                            | BSL 1.0              | Yes |2017-08-31|D Protocol Buffer mixins to create structures at compile time
 | [hprose](https://github.com/hprose/hprose-d)                          |  MIT                 | Yes |2016-11-14|Hprose for Dlang
@@ -395,6 +396,11 @@ Also you might be interested in other related, but different lists:
 # video
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+
+# time-dates
+| library                                                               | license              | GC |last update| description
+|---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
+| dateparser 															| BSL 1                | Yes ||
 
 # miscellaneous
 | library                                                               | license              | GC |last update| description
