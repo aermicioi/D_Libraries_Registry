@@ -405,7 +405,7 @@ Also you might be interested in other related, but different lists:
 # miscellaneous
 | library                                                               | license              | GC |last update| description
 |---------------------------------------------------------------------- |:--------------------:|:---:|:---------:| -----------
-| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | Yes |2017-10-27|CPU Identification Routines
+| [mir-cpuid](https://github.com/libmir/mir-cpuid)                      | BSL 1                | No |2017-10-27|CPU Identification Routines
 | [dpeq](https://github.com/Boris-Barboris/dpeq)                        | MIT                  | Yes |2017-11-27|PSQL extended query TCP client for D
 | [ip2location](https://github.com/ip2location/ip2location-d)           | LGPL 3               | Yes |2017-01-05|Use IP2Location geolocation database to lookup for accurate visitor location with D Library. It enables the user to find the country, region, city, coordinates, zip code, time zone, ISP, domain name, connection type, area code, weather, MCC, MNC, mobile brand name, elevation and usage type that any IP address or hostname originates from. 
 | [miao.string](https://github.com/qqiangwu/miao.string)                 | Boost                | Yes |2017-03-31|String matching library for Dlang
