@@ -1,3 +1,8 @@
+# Note
+
+This project was just a quick draft that I used to understand if there is interest and possibilities for a better reorganization of D libraries.
+At the moment the project is abandoned while I am working on a dub-registry mirror that implements more features.
+
 # D language libraries
 
 I want to build a comprehensive list of D language libraries to be used as a reference.
